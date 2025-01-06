@@ -1,0 +1,11 @@
+framework module WMContents {
+  umbrella header "WMContents.h"
+  export *
+
+  module * { export * }
+}
+
+module WMContents.Swift {
+  header "WMContents-Swift.h"
+  requires objc
+}

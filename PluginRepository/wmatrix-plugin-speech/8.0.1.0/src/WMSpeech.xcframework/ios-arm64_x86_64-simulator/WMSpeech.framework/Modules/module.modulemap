@@ -1,0 +1,11 @@
+framework module WMSpeech {
+  umbrella header "WMSpeech.h"
+  export *
+
+  module * { export * }
+}
+
+module WMSpeech.Swift {
+  header "WMSpeech-Swift.h"
+  requires objc
+}

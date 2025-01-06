@@ -1,0 +1,895 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WMatrixMobile
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import CommonCrypto
+import CoreData
+import CryptoKit
+import Foundation
+import GCDWebServers
+import ImageIO
+import MobileCoreServices
+import Photos
+import Swift
+import SystemConfiguration
+import UIKit
+@_exported import WMatrixMobile
+import WebKit
+import ZipArchive
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_hasMissingDesignatedInitializers final public class CallBackManager : ObjectiveC.NSObject {
+  @objc final public var commandDelegate: (any WMatrixMobile.CommandDelegate)? {
+    get
+  }
+  @objc final public var command: WMatrixMobile.WMatrixCommand {
+    get
+  }
+  final public var argumentDic: [Swift.String : Any]? {
+    get
+  }
+  final public func decodeArgument<T>() -> T? where T : Swift.Decodable, T : Swift.Encodable
+  final public func success(keepCallback: Swift.Bool = false)
+  final public func success(data: Swift.Bool, keepCallback: Swift.Bool = false)
+  final public func success(data: Swift.String, keepCallback: Swift.Bool = false)
+  @objc final public func success(data: Any?, keepCallback: Swift.Bool = false)
+  final public func success(data: [Swift.String : Any], keepCallback: Swift.Bool = false)
+  final public func success(data: [[Swift.String : Any]], keepCallback: Swift.Bool = false)
+  final public func success(data: Foundation.Data, keepCallback: Swift.Bool = false)
+  final public func error(status: WMatrixMobile.CommandStatus, error: Swift.String, keepCallback: Swift.Bool = false)
+  final public func error(status: WMatrixMobile.CommandStatus, error: Any, keepCallback: Swift.Bool = false)
+  final public func error(status: WMatrixMobile.CommandStatus, keepCallback: Swift.Bool = false)
+  final public func error(status: WMatrixMobile.CommandStatus, error: [Swift.String : Any], keepCallback: Swift.Bool = false)
+  final public func error(status: Swift.String, error: Swift.String, keepCallback: Swift.Bool = false)
+  @objc deinit
+}
+public struct WebViewModel {
+  public var tag: Swift.String
+  public var matrixWebView: WMatrixMobile.WMatrixWebView
+  public var isSubWebView: Swift.Bool
+  public var localWebServer: WMatrixMobile.LocalWebServer?
+  public init(tag: Swift.String, matrixWebView: WMatrixMobile.WMatrixWebView, isSubWebView: Swift.Bool = false, localWebServer: WMatrixMobile.LocalWebServer?)
+}
+public struct MatrixError {
+  public var errorCode: Swift.String
+  public var errorMessage: Swift.String
+  public var errorReason: Swift.String?
+  public var errorSolution: Swift.String?
+  public var serverData: WMatrixMobile.ServerData?
+  public init(errorCode: Swift.String, errorMessage: Swift.String, errorReason: Swift.String? = nil, errorSolution: Swift.String? = nil, serverData: WMatrixMobile.ServerData? = nil)
+  public init(errorCode: WMatrixMobile.ErrorCode, errorReason: Swift.String? = nil, errorSolution: Swift.String? = nil, serverData: WMatrixMobile.ServerData? = nil)
+}
+@objc @objcMembers public class WMatrixCommand : ObjectiveC.NSObject {
+  @objc public var arguments: [Any]?
+  @objc final public let callbackId: Swift.String?
+  @objc final public let className: Swift.String?
+  @objc final public let methodName: Swift.String?
+  @objc final public let uuid: Swift.String?
+  @objc required public init(_ arguments: [Any]?, callbackId: Swift.String?, className: Swift.String?, methodName: Swift.String?, uuid: Swift.String?)
+  @objc public func massageArguments()
+  @objc public func argument(at: Swift.Int) -> Any?
+  @objc public func argument(at: Swift.Int, defaultValue: Any?) -> Any?
+  @objc public func argument(at: Swift.Int, defaultValue: Any?, aClass: Swift.AnyClass?) -> Any?
+  @objc deinit
+}
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor(unsafe) public var visibleViewController: UIKit.UIViewController? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var mKeyWindow: UIKit.UIWindow? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func visibleViewControllerFrom(vc: UIKit.UIViewController?) -> UIKit.UIViewController?
+}
+public struct MatrixServerConfig : Swift.Codable {
+  public let appID: Swift.String
+  public let wmatrixConfig: WMatrixMobile.MatrixConfig
+  public let wmatrixVersion: Swift.String
+  public let websquare: WMatrixMobile.WebSquare?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MatrixConfig : Swift.Codable {
+  public var frameworkType: Swift.String
+  public var storageType: Swift.String
+  public var localUpdatePolicy: Swift.Bool
+  public var refreshUpdatePolicy: Swift.Bool
+  public var customUpdatePolicy: Swift.Bool
+  public var customupdateURL: Swift.String
+  public var customupdateURLAndroid: Swift.String
+  public var startPage: Swift.String
+  public var serviceFilter: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WebSquare : Swift.Codable {
+  public var resourceSize: [Swift.String : Swift.String]
+  public var serverVersion: Swift.String
+  public var enginePath: [Swift.String : Swift.String]
+  public var engineResourceLocation: Swift.String
+  public var engineBase: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class UserDefaultServiceMock : WMatrixMobile.UserDefaultsServiceType {
+  final public func value<T>(forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String) -> T?
+  final public func set<T>(value: T?, forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String)
+  final public func getObject<T>(forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String, tag: Swift.String) -> T? where T : Swift.Decodable, T : Swift.Encodable
+  final public func setObject<T>(value: T?, forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String) where T : Swift.Decodable, T : Swift.Encodable
+  final public func removeAll()
+  @objc deinit
+}
+public protocol WMatrixProtocol {
+  func onMatrixCreated(tag: Swift.String)
+  func onMatrixStarted(tag: Swift.String)
+  func onMatrixWebViewCreated(tag: Swift.String, matrixWebView: WMatrixMobile.WMatrixWebView?)
+  func onMatrixGroupSelect(group: WMatrixMobile.ServerGroup)
+  func onDismissLoadingView()
+  func onMatrixError(tag: Swift.String, error: WMatrixMobile.MatrixError)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(CommandQueue) @objcMembers final public class CommandQueue : ObjectiveC.NSObject {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers open class WMatrixPlugin : ObjectiveC.NSObject, WMatrixMobile.WMatrixPluginProtocol {
+  @objc public var webView: WMatrixMobile.WMatrixWebView? {
+    get
+  }
+  @objc weak public var commandDelegate: (any ObjectiveC.NSObject & WMatrixMobile.CommandDelegate)? {
+    get
+  }
+  @objc public var viewController: UIKit.UIViewController?
+  public init(notificationCenter: any WMatrixMobile.NotificationManagerType)
+  @objc required override dynamic public init()
+  @objc public func setWWebView(_ webView: WMatrixMobile.WMatrixWebView)
+  @objc public func setCommand(_ delegate: (any ObjectiveC.NSObject & WMatrixMobile.CommandDelegate)?)
+  @objc public func dispose()
+  @objc open func pluginInitialize()
+  @objc public func handleOpenURL(_ notification: Foundation.Notification)
+  @objc public func handleOpenURLWithApplicationSourceAndAnnotation(_ notification: Foundation.Notification)
+  @objc public func onAppTerminate()
+  @objc public func onMemoryWarning()
+  @objc public func onReset()
+  @objc deinit
+}
+@objc public protocol CommandDelegate {
+  @objc var wmatrix: WMatrixMobile.WMatrix? { get set }
+  @objc var urlTransformer: ((_ url: Foundation.URL) -> Foundation.URL)? { get set }
+  @objc var webView: WMatrixMobile.WMatrixWebView? { get }
+  @objc func getCommandInstance(_ pluginName: Swift.String) -> Any
+  @objc func send(_ pluginResult: WMatrixMobile.WMatrixPluginResult, callbackId: Swift.String?)
+  @objc func evalJs(_ js: Swift.String)
+  @objc func run(_ inBackground: @escaping () -> Swift.Void)
+}
+public struct LocalResource {
+  public var path: Swift.String
+  public var hash: Swift.String
+  public var server: Swift.String
+  public var appId: Swift.String
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class ServerSelectView : UIKit.UIView {
+  @objc deinit
+}
+extension WMatrixMobile.ServerSelectView : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension WMatrixMobile.ServerSelectView : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, canEditRowAt indexPath: Foundation.IndexPath) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+}
+@_inheritsConvenienceInitializers @objc(Logger) @objcMembers final public class Logger : WMatrixMobile.WMatrixPlugin {
+  @objc final public func logLevel(_ manager: WMatrixMobile.CallBackManager)
+  override public init(notificationCenter: any WMatrixMobile.NotificationManagerType)
+  @objc required dynamic public init()
+  @objc deinit
+}
+public enum WMatrixResetError : Swift.Error {
+  case notFoundStoragePath
+  case notFoundWebViewOptions
+  case removeDirectory
+  case custom(errorDescription: Swift.String)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers final public class WMatrix : ObjectiveC.NSObject {
+  final public let targetInfo: WMatrixMobile.TargetInfo
+  @objc final public var viewController: UIKit.UIViewController?
+  @objc final public var pluginsMap: [Swift.String : Swift.String]
+  @objc final public var startupPluginNames: [Swift.String]
+  convenience public init(delegate: any WMatrixMobile.WMatrixProtocol)
+  final public func create(tag: Swift.String, serverData: WMatrixMobile.ServerData, webViewOptions: WMatrixMobile.WebViewOptions = WebViewOptions())
+  @objc final public func start(tag: Swift.String)
+  final public func getCurrentWebViewOptions(tag: Swift.String) -> WMatrixMobile.WebViewOptions?
+  final public func makeWebView(tag: Swift.String, fromPlugin: (any WMatrixMobile.StartWebViewProtocol)? = nil, async: Swift.Bool = false)
+  final public func getServerGroupFromConfig() -> [WMatrixMobile.ServerGroup]
+  final public func getServerGroupFromConfigTobe() -> [WMatrixMobile.ServerGroup]
+  final public func getStartServerGroupFromConfig() -> WMatrixMobile.ServerGroup?
+  final public func showServerSelect(serverGroup: [WMatrixMobile.ServerGroup]? = nil, selectAllServerGroupAtFirst: Swift.Bool = true)
+  @objc public static func dismissScrean()
+  @objc public static func loadJS(_ params: [Swift.String])
+  final public func setUserResources(tag: Swift.String, models: [WMatrixMobile.UserResourceModel])
+  final public func reset(appId: Swift.String, completion: @escaping (Swift.Result<Swift.Void, WMatrixMobile.WMatrixResetError>) -> Swift.Void)
+  @objc deinit
+}
+public enum ErrorCode : Swift.String {
+  case createErrorMsgCode
+  case noResponseErrorMsgCode
+  case serverEngineUpdateErrorMsgCode
+  case noMatchedAppIDErrorMsgCode
+  case serverErrorMsgCode
+  case startWMatrixErrorMsgCode
+  case failedServerListMsgCode
+  case copyAssetsErrorMsgCode
+  case unzipEngineErrorMsgCode
+  case unzipResourceErrorMsgCode
+  case unzipCustomZipErrorMsgCode
+  case unzipRefreshZipErrorMsgCode
+  case refreshHashTableErrorMsgCode
+  case downloadRefreshUpdateFileErrorMsgCode
+  case invalidWebSquareLicenseErrorMsgCode
+  case failInAppUpdateImgErrorMsgCode
+  case refreshErrorMsgCode
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIImage {
+  public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
+  public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
+  public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
+}
+public typealias CompletionHandler = ((WMatrixMobile.AlertResult) -> Swift.Void)
+public enum AlertButtonType {
+  case cancel(title: Swift.String)
+  case `default`(title: Swift.String)
+}
+public enum AlertResult {
+  case cancel
+  case other(inputText: [Swift.String])
+}
+@_hasMissingDesignatedInitializers final public class Alert {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class WMatrixData {
+  public static let shared: WMatrixMobile.WMatrixData
+  final public var isLoggable: Swift.Bool
+  final public var requestMatrixConfigType: WMatrixMobile.RequestMatrixConfigType
+  final public func getWebViewModel(tag: Swift.String) -> WMatrixMobile.WebViewModel?
+  final public func getWebViewModel(webViewId: Swift.String) -> WMatrixMobile.WebViewModel?
+  final public func getOptions(tag: Swift.String) -> WMatrixMobile.WebViewOptions?
+  final public func getOptions(webViewId: Swift.String) -> WMatrixMobile.WebViewOptions?
+  final public func removeOptions(tag: Swift.String)
+  final public func removeWebViewModel(tag: Swift.String)
+  @objc deinit
+}
+public struct AssetResource : Swift.Codable {
+  public var path: Swift.String
+  public var server: Swift.String
+  public var appId: Swift.String
+  public var hash: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol StartWebViewProtocol {
+  var newTag: Swift.String { get }
+  func onMatrixWebViewCreate(matrixWebView: WMatrixMobile.WMatrixWebView)
+  func onError(error: WMatrixMobile.MatrixError)
+}
+public struct WebViewOptions {
+  public var realServerUrl: Swift.String
+  public var useOfflineMode: Swift.Bool
+  public var serverConfig: WMatrixMobile.MatrixServerConfig?
+  public var useAllRemote: Swift.Bool
+  public var exceptionServiceFilterList: [Swift.String]
+  public var serverData: WMatrixMobile.ServerData?
+  public var webViewConfiguration: WebKit.WKWebViewConfiguration?
+  public var urlSessionConfig: Foundation.URLSessionConfiguration?
+  public var urlSessionDelegate: (any Foundation.URLSessionDelegate)?
+  public var syncLocalhostCookie: Swift.Bool
+  public init()
+}
+@_hasMissingDesignatedInitializers final public class LocalConfig {
+  @objc deinit
+}
+@objc public protocol WebViewEventProtocol {
+  @objc optional func onDismiss()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class SubtitleTableViewCell : UIKit.UITableViewCell {
+  @objc deinit
+}
+public protocol NotificationManagerType {
+  var observePageDidLoadNotification: Combine.AnyPublisher<WebKit.WKWebView?, Swift.Never> { get }
+  var observePluginResetNotification: Combine.AnyPublisher<WebKit.WKWebView?, Swift.Never> { get }
+  var observeWillAppearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeWillDisappearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeDidAppearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeDidDisappearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeWillLayoutSubviewsNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeDidLayoutSubviewsNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeWillTransitionToSizeNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeDismissLoadingView: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  func postPageDidLoadNotification(webView: WebKit.WKWebView)
+  func postPluginResetNotification(webView: WebKit.WKWebView)
+  func postWillAppearNotification()
+  func postWillDisappearNotification()
+  func postDidAppearNotification()
+  func postDidDisappearNotification()
+  func postWillLayoutSubviewsNotification()
+  func postDidLayoutSubviewsNotification()
+  func postWillTransitionToSizeNotification()
+  func postDismissLoadingView()
+  var observeWillTerminateNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeDidReceiveMemoryWarnigNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeWillResignActiveNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeDidBecomeActiveNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeWillEnterForegroundNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  var observeDidEnterBackgroundNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> { get }
+  func postWillTerminateNotification()
+  func postDidReceiveMemoryWarnigNotification()
+  func postWillResignActiveNotification()
+  func postDidBecomeActiveNotification()
+  func postWillEnterForegroundNotification()
+  func postDidEnterBackgroundNotification()
+}
+@_hasMissingDesignatedInitializers final public class NotificationManager : WMatrixMobile.NotificationManagerType {
+  @objc deinit
+}
+extension WMatrixMobile.NotificationManager {
+  final public var observePageDidLoadNotification: Combine.AnyPublisher<WebKit.WKWebView?, Swift.Never> {
+    get
+  }
+  final public var observePluginResetNotification: Combine.AnyPublisher<WebKit.WKWebView?, Swift.Never> {
+    get
+  }
+  final public var observeWillAppearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeWillDisappearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeDidAppearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeDidDisappearNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeWillLayoutSubviewsNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeDidLayoutSubviewsNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeWillTransitionToSizeNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeDismissLoadingView: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeWillTerminateNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeDidReceiveMemoryWarnigNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeWillResignActiveNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeDidBecomeActiveNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeWillEnterForegroundNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+  final public var observeDidEnterBackgroundNotification: Combine.AnyPublisher<Swift.Void?, Swift.Never> {
+    get
+  }
+}
+extension WMatrixMobile.NotificationManager {
+  final public func postPageDidLoadNotification(webView: WebKit.WKWebView)
+  final public func postPluginResetNotification(webView: WebKit.WKWebView)
+  final public func postWillAppearNotification()
+  final public func postWillDisappearNotification()
+  final public func postDidAppearNotification()
+  final public func postDidDisappearNotification()
+  final public func postWillLayoutSubviewsNotification()
+  final public func postDidLayoutSubviewsNotification()
+  final public func postWillTransitionToSizeNotification()
+  final public func postDismissLoadingView()
+  final public func postWillTerminateNotification()
+  final public func postDidReceiveMemoryWarnigNotification()
+  final public func postWillResignActiveNotification()
+  final public func postDidBecomeActiveNotification()
+  final public func postWillEnterForegroundNotification()
+  final public func postDidEnterBackgroundNotification()
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers final public class InAppUpdatePlugin : ObjectiveC.NSObject, WMatrixMobile.WMatrixPluginProtocol {
+  @objc final public var webView: WMatrixMobile.WMatrixWebView? {
+    get
+  }
+  @objc final public var viewController: UIKit.UIViewController?
+  @objc final public func pluginInitialize()
+  @objc final public func setWWebView(_ webView: WMatrixMobile.WMatrixWebView)
+  @objc final public func dispose()
+  @objc final public func checkRefreshUpdate(_ manager: WMatrixMobile.CallBackManager)
+  @objc @_Concurrency.MainActor final public func showServerSelect(_ manager: WMatrixMobile.CallBackManager)
+  @objc final public func reset(_ manager: WMatrixMobile.CallBackManager)
+  @objc final public func isOffline(_ manager: WMatrixMobile.CallBackManager)
+  @objc deinit
+}
+public struct WMLog {
+  public static func debug(msg: Swift.String)
+  public static func debug(tag: Swift.String, msg: Swift.String)
+  public static func error(tag: Swift.String, msg: Swift.String, filename: Swift.String = #file, line: Swift.Int = #line, funcName: Swift.String = #function)
+  public static func fault(tag: Swift.String, msg: Swift.String)
+  public static func info(tag: Swift.String, msg: Swift.String)
+  public static func `default`(tag: Swift.String, msg: Swift.String)
+}
+public struct UserDefaultsKey<T> {
+  public typealias Key<U> = WMatrixMobile.UserDefaultsKey<U>
+  public let key: Swift.String
+}
+extension WMatrixMobile.UserDefaultsKey : Swift.ExpressibleByStringLiteral {
+  public init(unicodeScalarLiteral value: Swift.StringLiteralType)
+  public init(extendedGraphemeClusterLiteral value: Swift.StringLiteralType)
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension WMatrixMobile.UserDefaultsKey {
+  public static var serverGroupList: WMatrixMobile.UserDefaultsKey<T>.Key<[WMatrixMobile.ServerGroup]> {
+    get
+  }
+  public static var engineVersion: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.String> {
+    get
+  }
+  public static var firstExec: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.Bool> {
+    get
+  }
+  public static var downloadRefreshZip: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.Bool> {
+    get
+  }
+  public static var customUpdateEtag: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.String> {
+    get
+  }
+  public static var wwwListHash: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.String> {
+    get
+  }
+  public static var refreshHash: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.String> {
+    get
+  }
+  public static var localResourceHash: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.String> {
+    get
+  }
+  public static var localConfig: WMatrixMobile.UserDefaultsKey<T>.Key<[WMatrixMobile.MatrixServerConfig]> {
+    get
+  }
+  public static var engineSPversion: WMatrixMobile.UserDefaultsKey<T>.Key<Swift.String> {
+    get
+  }
+}
+public struct NotificationKey<T> {
+  public typealias Key<U> = WMatrixMobile.NotificationKey<U>
+  public let key: Swift.String
+}
+extension WMatrixMobile.NotificationKey : Swift.ExpressibleByStringLiteral {
+  public init(unicodeScalarLiteral value: Swift.StringLiteralType)
+  public init(extendedGraphemeClusterLiteral value: Swift.StringLiteralType)
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension WMatrixMobile.NotificationKey {
+  public static var PageDidLoadNotification: WMatrixMobile.NotificationKey<T>.Key<WebKit.WKWebView> {
+    get
+  }
+  public static var PluginResetNotification: WMatrixMobile.NotificationKey<T>.Key<WebKit.WKWebView> {
+    get
+  }
+  public static var ViewWillAppearNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var ViewWillDisappearNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var ViewDidAppearNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var ViewDidDisappearNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var ViewWillLayoutSubviewsNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var ViewDidLayoutSubviewsNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var ViewWillTransitionToSizeNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var dismissLoadingView: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var WillTerminateNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var DidReceiveMemoryWarnigNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var WillResignActiveNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var DidBecomeActiveNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var WillEnterForegroundNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+  public static var DidEnterBackgroundNotification: WMatrixMobile.NotificationKey<T>.Key<Swift.Void> {
+    get
+  }
+}
+@objc(ServerSelectProtocol) public protocol ServerSelectProtocol {
+  @objc func onServerSelect()
+}
+public protocol UserDefaultsServiceType : AnyObject {
+  func value<T>(forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String) -> T?
+  func set<T>(value: T?, forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String)
+  func getObject<T>(forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String, tag: Swift.String) -> T? where T : Swift.Decodable, T : Swift.Encodable
+  func setObject<T>(value: T?, forKey key: WMatrixMobile.UserDefaultsKey<T>, prefix: Swift.String) where T : Swift.Decodable, T : Swift.Encodable
+  func removeAll()
+}
+public enum CommandMsg {
+  case success
+  case fail
+  public static func == (a: WMatrixMobile.CommandMsg, b: WMatrixMobile.CommandMsg) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CommandStatus : Swift.Int {
+  case SUCCESS
+  case INVALID_PARAM
+  case NO_PERMISSION
+  case TIME_OUT
+  case NO_CONNECT
+  case NETWORK_TIME_OUT
+  case NETWORK_RESPONSE_ERROR
+  case OBJECT_CREATION_FAILED
+  case OBJECT_REFERENCE_FAILED
+  case JSON_PARSING_FAILED
+  case JSON_STRINGIFY_FAILED
+  case FILE_NOT_FOUND
+  case UNABLE_FILE_WRITE
+  case UNABLE_FILE_READ
+  case NO_MODIFICATION_ALLOWED
+  case UNABLE_FILE_REMOVE
+  case FAIL_TAKE_PICTURE
+  case REFRESH_UPDATE_ERROR
+  case NOT_USE_REFRESH_UPDATE_POLICY
+  case NOT_DEFINED_ACTION
+  case INVALID_PARAM_TYPE
+  case EXCEPTION
+  case UNKNOWN
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct WMatrixPlistRoot : Swift.Codable {
+  public let targetConfgDic: [Swift.String : WMatrixMobile.TargetConfig]
+  public let target: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct TargetConfig : Swift.Codable {
+  public let serverGroups: [Swift.String : [WMatrixMobile.WMatrixServer]]
+  public let startServerGroupName: Swift.String
+  public let useServerSelectScreen: Swift.Bool
+  public var convertServerGroup: [WMatrixMobile.ServerGroup] {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct WMatrixServer : Swift.Codable {
+  public let appID: Swift.String
+  public let localWebServerPort: Swift.String
+  public let name: Swift.String
+  public let url: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum UserResourceRequestType {
+  case LOCAL
+  case REMOTE
+  public static func == (a: WMatrixMobile.UserResourceRequestType, b: WMatrixMobile.UserResourceRequestType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct UserResourceModel {
+  public init(appId: Swift.String, server: Swift.String, path: Swift.String, requestType: WMatrixMobile.UserResourceRequestType = .LOCAL)
+}
+public struct RefreshResource {
+  public var path: Swift.String
+  public var hash: Swift.String
+  public var server: Swift.String
+  public var appId: Swift.String
+}
+public struct ServerGroup : Swift.Codable, Swift.Equatable {
+  public let groupName: Swift.String
+  public var isUserAdded: Swift.Bool
+  public var serverList: [WMatrixMobile.ServerData]
+  public init(groupName: Swift.String, serverList: [WMatrixMobile.ServerData], isUserAdded: Swift.Bool = false)
+  public init(data: [WMatrixMobile.WMatrixServer], groupName: Swift.String)
+  public var selectedServer: [WMatrixMobile.ServerData] {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension WMatrixMobile.ServerGroup {
+  public static func == (lhs: WMatrixMobile.ServerGroup, rhs: WMatrixMobile.ServerGroup) -> Swift.Bool
+}
+public struct ServerData : Swift.Codable, Swift.Equatable {
+  public var name: Swift.String
+  public var appId: Swift.String
+  public var url: Swift.String
+  public var context: Swift.String
+  public var localWebServerPort: Swift.Int
+  public var isSelected: Swift.Bool
+  public init(name: Swift.String, appId: Swift.String, url: Swift.String, context: Swift.String, localWebServerPort: Swift.Int = 24680, isSelected: Swift.Bool = false, uuid: Swift.String? = UUID().uuidString)
+  public init(data: WMatrixMobile.WMatrixServer)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension WMatrixMobile.ServerData {
+  public static func == (lhs: WMatrixMobile.ServerData, rhs: WMatrixMobile.ServerData) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers final public class SessionWrapper : ObjectiveC.NSObject, Foundation.URLSessionDelegate, Foundation.URLSessionDataDelegate {
+  final public func getConfiguration() -> Foundation.URLSessionConfiguration
+  @objc final public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, willPerformHTTPRedirection response: Foundation.HTTPURLResponse, newRequest request: Foundation.URLRequest, completionHandler: @escaping (Foundation.URLRequest?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum RequestMatrixConfigType {
+  case each, all
+  public static func == (a: WMatrixMobile.RequestMatrixConfigType, b: WMatrixMobile.RequestMatrixConfigType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc(WMatrixWebView) @objcMembers @_Concurrency.MainActor(unsafe) final public class WMatrixWebView : WebKit.WKWebView {
+  @objc @_Concurrency.MainActor(unsafe) final public var commandDelegate: (any WMatrixMobile.CommandDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) final public var commandQueue: WMatrixMobile.CommandQueue?
+  @objc @_Concurrency.MainActor(unsafe) final public var pluginObjects: [Swift.String : Any]
+  @objc @_Concurrency.MainActor(unsafe) final public var pluginsMap: [Swift.String : Swift.String]
+  @objc @_Concurrency.MainActor(unsafe) final public var startupPluginNames: [Swift.String]
+  @objc @_Concurrency.MainActor(unsafe) final public var webViewId: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) final public var tagName: Swift.String
+  @_Concurrency.MainActor(unsafe) final public var keyboardDisplayRequiresUserAction: Swift.Bool? {
+    get
+    set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public func loadStartPage(path: Swift.String? = nil, header: [Swift.String : Swift.String]? = nil, queryParameter: [Swift.String : Swift.String]? = nil)
+  @objc deinit
+}
+extension WMatrixMobile.WMatrixWebView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc final public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc @_Concurrency.MainActor(unsafe) final public func dispose()
+}
+extension WMatrixMobile.WMatrixWebView : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension WMatrixMobile.WMatrixWebView : WebKit.WKUIDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, runJavaScriptTextInputPanelWithPrompt prompt: Swift.String, defaultText: Swift.String?, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.String?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor(unsafe) @objc final public func webViewDidClose(_ webView: WebKit.WKWebView)
+}
+extension WMatrixMobile.WMatrixWebView : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers @objcMembers final public class Reachability {
+  @objc public static func isConnectedToNetwork() -> Swift.Bool
+  @objc deinit
+}
+public typealias Param<T> = (T) -> Swift.Void
+public typealias Return<T> = () -> (T)
+public enum TaskResult {
+  case success
+  case error(WMatrixMobile.MatrixError)
+}
+public typealias WMatrixTask = (Swift.String, Dispatch.DispatchGroup) -> Swift.Void
+public struct InAppUpdateTime {
+  public var createStart: Foundation.Date?
+  public var createEnd: Foundation.Date?
+  public var assetResourceCopyStartTime: Foundation.Date?
+  public var assetResourceCopyEndTime: Foundation.Date?
+  public var engineUpdateStartTime: Foundation.Date?
+  public var engineUpdateEndTime: Foundation.Date?
+  public var refreshUpdateStartTime: Foundation.Date?
+  public var refreshUpdateEndTime: Foundation.Date?
+  public var customUpdateStartTime: Foundation.Date?
+  public var customUpdateEndTime: Foundation.Date?
+}
+@objc public protocol WMatrixPluginProtocol {
+  @objc var viewController: UIKit.UIViewController? { get set }
+  @objc var webView: WMatrixMobile.WMatrixWebView? { get }
+  @objc func setWWebView(_ webView: WMatrixMobile.WMatrixWebView)
+  @objc func dispose()
+  @objc optional func pluginInitialize()
+  @objc optional func handleOpenURL(_ notification: Foundation.Notification)
+  @objc optional func handleOpenURLWithApplicationSourceAndAnnotation(_ notification: Foundation.Notification)
+  @objc optional func onReset()
+  @objc optional func onMemoryWarning()
+  @objc optional func onAppTerminate()
+}
+@_hasMissingDesignatedInitializers @objc(LocalWebServer) @objcMembers final public class LocalWebServer : ObjectiveC.NSObject {
+  @objc final public var server: GCDWebServers.GCDWebServer
+  @objc final public var port: Swift.Int
+  @objc final public var remoteServer: Swift.String
+  @objc final public var baseServer: Swift.String
+  @objc final public var serverContext: Swift.String
+  final public var webViewOptions: WMatrixMobile.WebViewOptions?
+  @objc final public var localResourceHeader: [Swift.String : Swift.String]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WebViewProcessPoolFactory {
+  public static let shared: WMatrixMobile.WebViewProcessPoolFactory
+  public var sharedPool: WebKit.WKProcessPool
+  @objc deinit
+}
+@objc(WMatrixPluginResult) @objcMembers public class WMatrixPluginResult : ObjectiveC.NSObject {
+  public init(status: WMatrixMobile.CommandStatus)
+  public init(status: WMatrixMobile.CommandStatus, message: Any? = nil)
+  @objc public init(status: Swift.Int, msg: Swift.String)
+  public init(status: WMatrixMobile.CommandStatus, messageAs: Any? = nil)
+  @objc public static func resultWithStatus(_ message: Any? = nil) -> WMatrixMobile.WMatrixPluginResult
+  public static func resultWithStatus(_ statusOrdinal: WMatrixMobile.CommandStatus, message: Any? = nil) -> WMatrixMobile.WMatrixPluginResult
+  public static func resultWithStatus(_ statusOrdinal: WMatrixMobile.CommandStatus, theMessage: Foundation.Data? = nil) -> WMatrixMobile.WMatrixPluginResult
+  public static func resultWithStatus(_ statusOrdinal: WMatrixMobile.CommandStatus, theMessages: [Any]?, uuid: Swift.String = "") -> WMatrixMobile.WMatrixPluginResult
+  public static func resultWithStatus(_ statusOrdinal: WMatrixMobile.CommandStatus, errorCode: Swift.Int = 0, uuid: Swift.String = "") -> WMatrixMobile.WMatrixPluginResult
+  @objc public func setKeepCallbackAs(_ bKeepCallback: Swift.Bool)
+  @objc public static func massageMessage(_ message: Any?) -> [Swift.String : Any]?
+  @objc public static func messageFromArrayBuffer(_ data: Foundation.Data) -> [Swift.String : Any]
+  public static func messageFromMultipart(_ theMessage: [Any?]) -> [Swift.String : Any]
+  public static func makeJsonMsg(_ code: Swift.String, _ msg: Swift.String, _ data: Any?) -> [Swift.String : Any?]
+  public static func makeJsonMsg(_ status: WMatrixMobile.CommandStatus = .SUCCESS, _ data: Any?) -> [Swift.String : Any]?
+  @objc deinit
+}
+public struct TargetInfo {
+  public var activeTarget: Swift.String {
+    get
+  }
+  public var activeTargetInfo: [Swift.String : Any] {
+    get
+  }
+  public var useSeverSelect: Swift.Bool {
+    get
+  }
+  public var activeTargetTobe: Swift.String? {
+    get
+  }
+  public var activeTargetInfoTobe: WMatrixMobile.TargetConfig? {
+    get
+  }
+  public var useServerSelectTobe: Swift.Bool {
+    get
+  }
+}
+public struct RefreshTableModel {
+  public var refreshTableHash: Swift.String
+  public var refreshTable: Swift.String
+  public var refreshReqMaxCount: Swift.Int
+  public var refreshResources: [WMatrixMobile.RefreshResource]
+  public init(refreshTableHash: Swift.String = "", refreshTable: Swift.String = "", refreshResources: [WMatrixMobile.RefreshResource] = .init(), refreshReqMaxCount: Swift.Int = 5)
+}
+@_inheritsConvenienceInitializers @objc(AssetHash) public class AssetHash : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension WMatrixMobile.AssetHash {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<WMatrixMobile.AssetHash>
+  @objc @NSManaged dynamic public var appid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var hashkey: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var path: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var server: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension WMatrixMobile.AssetHash : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(RefreshHash) public class RefreshHash : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension WMatrixMobile.RefreshHash {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<WMatrixMobile.RefreshHash>
+  @objc @NSManaged dynamic public var appid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var hashkey: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var path: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var server: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension WMatrixMobile.RefreshHash : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(UserResourceHash) public class UserResourceHash : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension WMatrixMobile.UserResourceHash {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<WMatrixMobile.UserResourceHash>
+  @objc @NSManaged dynamic public var appid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var hashkey: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var path: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var server: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension WMatrixMobile.UserResourceHash : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+extension WMatrixMobile.ErrorCode : Swift.Equatable {}
+extension WMatrixMobile.ErrorCode : Swift.Hashable {}
+extension WMatrixMobile.ErrorCode : Swift.RawRepresentable {}
+extension WMatrixMobile.CommandMsg : Swift.Equatable {}
+extension WMatrixMobile.CommandMsg : Swift.Hashable {}
+extension WMatrixMobile.CommandStatus : Swift.Equatable {}
+extension WMatrixMobile.CommandStatus : Swift.Hashable {}
+extension WMatrixMobile.CommandStatus : Swift.RawRepresentable {}
+extension WMatrixMobile.UserResourceRequestType : Swift.Equatable {}
+extension WMatrixMobile.UserResourceRequestType : Swift.Hashable {}
+extension WMatrixMobile.RequestMatrixConfigType : Swift.Equatable {}
+extension WMatrixMobile.RequestMatrixConfigType : Swift.Hashable {}

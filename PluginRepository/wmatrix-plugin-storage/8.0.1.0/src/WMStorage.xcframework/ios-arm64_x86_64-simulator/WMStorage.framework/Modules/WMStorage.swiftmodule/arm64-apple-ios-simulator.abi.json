@@ -1,0 +1,634 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "WMStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMStorage"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 13,
+      "value": "\"WMAppPlugin\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1502,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1681,
+      "length": 13,
+      "value": "\"WMAppPlugin\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2231,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2401,
+      "length": 13,
+      "value": "\"WMAppPlugin\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2906,
+      "length": 15,
+      "value": "\"getPreference\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3207,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3261,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3301,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3501,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3624,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3675,
+      "length": 6,
+      "value": "\"file\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4030,
+      "length": 25,
+      "value": "\"Fail convert imagedata.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4112,
+      "length": 12,
+      "value": "\"data:image\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5333,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5369,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5379,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5390,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5563,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5830,
+      "length": 34,
+      "value": "\"Not Found visible viewcontroller\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6310,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6414,
+      "length": 7,
+      "value": "\"popup\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6435,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6470,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6533,
+      "length": 26,
+      "value": "\"APPRESET_CONFIRM_MESSAGE\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6602,
+      "length": 11,
+      "value": "\"clearData\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6627,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6665,
+      "length": 12,
+      "value": "\"clearCache\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6691,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6819,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7077,
+      "length": 23,
+      "value": "\"APPRESET_CONFIRM_DONE\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 7779,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7916,
+      "length": 25,
+      "value": "\"APPRESET_CONFIRM_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8193,
+      "length": 18,
+      "value": "\"APP_RESET_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8220,
+      "length": 17,
+      "value": "\"appReset cancel\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8520,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 9003,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9015,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9337,
+      "length": 27,
+      "value": "\"Not found Cache directory\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9596,
+      "length": 26,
+      "value": "\"Not found root directory\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10064,
+      "length": 42,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10077,
+      "length": 1,
+      "value": "\" - Not Found Cache Directory\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "Array",
+      "offset": 10273,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10437,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10499,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10512,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10544,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10815,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10855,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11006,
+      "length": 27,
+      "value": "\"inswave.wmatrix.wmstorage\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11254,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11459,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11619,
+      "length": 21,
+      "value": "\"webview cache clear\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11785,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11798,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11856,
+      "length": 9,
+      "value": "\"WMatrix\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11936,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12062,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12115,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12152,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12162,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12171,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12518,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12531,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12686,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12741,
+      "length": 12,
+      "value": "\"%@\/WMatrix\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13105,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13150,
+      "length": 35,
+      "value": "\"create Library document directory\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13237,
+      "length": 22,
+      "value": "\"file error: \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMStorage\/8.0.1.0\/WMStorage\/WMStoragePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13258,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

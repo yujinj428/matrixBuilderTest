@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<plugin id="wmatrix-plugin-speech" type="basic" version="8.0.1.0">
+	<name>Speech</name>
+	<description>WMatrix Speech Plugin</description>
+	<js-module name="speech" src="www/speech.js">
+		<clobbers target="wmatrix.plugin.speech" />
+	</js-module>
+	<platform name="ios">
+		<edit-config file="*-Info.plist" mode="merge" target="NSSpeechRecognitionUsageDescription">
+			<string>Need permission to use a speech recognition</string>
+		</edit-config>
+		<config-file parent="/*" target="PluginConfig.plist">
+			<feature name="WMSpeechPlugin">
+				<param name="ios-package" value="WMSpeechPlugin" />
+			</feature>
+		</config-file>
+		<framework embed="true" src="src/WMSpeech.framework" />
+	</platform>
+</plugin>

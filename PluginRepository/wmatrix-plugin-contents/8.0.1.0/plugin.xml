@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<plugin id="wmatrix-plugin-contents" type="basic" version="8.0.1.0">
+	<name>Contents</name>
+	<description>WMatrix Contents Plugin</description>
+	<js-module name="contents" src="www/contents.js">
+		<clobbers target="wmatrix.plugin.contents" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="PluginConfig.plist">
+			<feature name="WMContentsPlugin">
+				<param name="ios-package" value="WMContentsPlugin" />
+			</feature>
+		</config-file>
+		<framework embed="true" src="src/WMContents.framework" />
+		<framework embed="true" reposit="true" src="src/BSImagePicker.framework" />
+	</platform>
+</plugin>

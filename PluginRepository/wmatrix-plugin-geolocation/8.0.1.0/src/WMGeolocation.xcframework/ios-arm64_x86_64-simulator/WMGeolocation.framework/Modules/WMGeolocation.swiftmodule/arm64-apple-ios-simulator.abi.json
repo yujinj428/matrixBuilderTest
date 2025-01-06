@@ -1,0 +1,442 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMGeolocation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "WMGeolocation"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMGeolocation"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 441,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 19,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 533,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 567,
+      "length": 16,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 441,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 19,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 533,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 567,
+      "length": 16,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 441,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 19,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 533,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 567,
+      "length": 16,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 999,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 1023,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1597,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1612,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 2131,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2735,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2860,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4097,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4307,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5092,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 5179,
+      "length": 33,
+      "value": "\"Location services are disabled.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 5398,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 5458,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 5492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 5549,
+      "length": 6,
+      "value": "\"Fail\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "Dictionary",
+      "offset": 5611,
+      "length": 46,
+      "value": "[(\"errorMsg\", \"Location services are disabled.\")]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 5880,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 6089,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6611,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6757,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 8775,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8821,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 8841,
+      "length": 10,
+      "value": "\"velocity\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8865,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 8889,
+      "length": 18,
+      "value": "\"altitudeAccuracy\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8921,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 8956,
+      "length": 10,
+      "value": "\"accuracy\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8980,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9017,
+      "length": 9,
+      "value": "\"heading\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9040,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9065,
+      "length": 10,
+      "value": "\"altitude\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9089,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9116,
+      "length": 10,
+      "value": "\"latitude\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9140,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9178,
+      "length": 11,
+      "value": "\"longitude\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9275,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9341,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9375,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9436,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9881,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9915,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "StringLiteral",
+      "offset": 9980,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMGeolocation\/8.0.1.0\/WMGeolocation\/WMGeolocation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10189,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

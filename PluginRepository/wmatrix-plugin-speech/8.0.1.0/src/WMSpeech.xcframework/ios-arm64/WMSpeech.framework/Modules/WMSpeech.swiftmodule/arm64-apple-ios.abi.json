@@ -1,0 +1,896 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMSpeech",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMSpeech",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WMSpeech"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "WMSpeech"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMSpeech"
+      },
+      {
+        "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
+        "declKind": "Import",
+        "moduleName": "WMSpeech"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpeechManager",
+        "printedName": "SpeechManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:willSpeakRangeOfSpeechString:utterance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMSpeech@objc(cs)SpeechManager(im)speechSynthesizer:willSpeakRangeOfSpeechString:utterance:",
+            "mangledName": "$s8WMSpeech13SpeechManagerC17speechSynthesizer_016willSpeakRangeOfB6String9utteranceySo08AVSpeechE0C_So8_NSRangeVSo0L9UtteranceCtF",
+            "moduleName": "WMSpeech",
+            "objc_name": "speechSynthesizer:willSpeakRangeOfSpeechString:utterance:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:didStart:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMSpeech@objc(cs)SpeechManager(im)speechSynthesizer:didStartSpeechUtterance:",
+            "mangledName": "$s8WMSpeech13SpeechManagerC17speechSynthesizer_8didStartySo08AVSpeechE0C_So0H9UtteranceCtF",
+            "moduleName": "WMSpeech",
+            "objc_name": "speechSynthesizer:didStartSpeechUtterance:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:didPause:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMSpeech@objc(cs)SpeechManager(im)speechSynthesizer:didPauseSpeechUtterance:",
+            "mangledName": "$s8WMSpeech13SpeechManagerC17speechSynthesizer_8didPauseySo08AVSpeechE0C_So0H9UtteranceCtF",
+            "moduleName": "WMSpeech",
+            "objc_name": "speechSynthesizer:didPauseSpeechUtterance:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:didContinue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMSpeech@objc(cs)SpeechManager(im)speechSynthesizer:didContinueSpeechUtterance:",
+            "mangledName": "$s8WMSpeech13SpeechManagerC17speechSynthesizer_11didContinueySo08AVSpeechE0C_So0H9UtteranceCtF",
+            "moduleName": "WMSpeech",
+            "objc_name": "speechSynthesizer:didContinueSpeechUtterance:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:didCancel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMSpeech@objc(cs)SpeechManager(im)speechSynthesizer:didCancelSpeechUtterance:",
+            "mangledName": "$s8WMSpeech13SpeechManagerC17speechSynthesizer_9didCancelySo08AVSpeechE0C_So0H9UtteranceCtF",
+            "moduleName": "WMSpeech",
+            "objc_name": "speechSynthesizer:didCancelSpeechUtterance:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMSpeech@objc(cs)SpeechManager(im)speechSynthesizer:didFinishSpeechUtterance:",
+            "mangledName": "$s8WMSpeech13SpeechManagerC17speechSynthesizer_9didFinishySo08AVSpeechE0C_So0H9UtteranceCtF",
+            "moduleName": "WMSpeech",
+            "objc_name": "speechSynthesizer:didFinishSpeechUtterance:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WMSpeech@objc(cs)SpeechManager",
+        "mangledName": "$s8WMSpeech13SpeechManagerC",
+        "moduleName": "WMSpeech",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMSpeech",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMSpeech"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMSpeech"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WMSpeech"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 6,
+      "value": "\"2018\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 6,
+      "value": "\"2021\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 6,
+      "value": "\"2024\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 6,
+      "value": "\"2025\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 28,
+      "value": "\"Language is not supported.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 30,
+      "value": "\"Speech to text engine error.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 21,
+      "value": "\"TTS is not running.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 21,
+      "value": "\"TTS stopping failed\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 6,
+      "value": "\"2018\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 6,
+      "value": "\"2021\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 6,
+      "value": "\"2024\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 6,
+      "value": "\"2025\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 13,
+      "value": "\"error audio\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 11,
+      "value": "\"no speech\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 36,
+      "value": "\"not authorized to recognize speech\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 31,
+      "value": "\"not permitted to record audio\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 29,
+      "value": "\"recognizer is not available\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 19,
+      "value": "\"too many requests\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1337,
+      "length": 15,
+      "value": "\"unknown error\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 6,
+      "value": "\"2020\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 6,
+      "value": "\"2020\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 6,
+      "value": "\"Idle\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 9,
+      "value": "\"Waiting\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 9,
+      "value": "\"Running\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 11,
+      "value": "\"Finishing\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 11,
+      "value": "\"no speech\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "Array",
+      "offset": 1152,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1245,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 7,
+      "value": "\"ko_KR\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3194,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3207,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3382,
+      "length": 25,
+      "value": "\"Speech Recognizer Queue\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3932,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4974,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5334,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6040,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6314,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6768,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "Array",
+      "offset": 6995,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7027,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7651,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7894,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7991,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8232,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8392,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8431,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8446,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 8889,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9241,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9702,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10986,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/SpeechManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13257,
+      "length": 16,
+      "value": "\"ListenToSpeech\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 13,
+      "value": "\"speechSpeed\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 885,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 4,
+      "value": "\"ko\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 7,
+      "value": "\"ko-KR\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 7,
+      "value": "\"en-US\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 4,
+      "value": "\"ja\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1151,
+      "length": 7,
+      "value": "\"ja-JP\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 7,
+      "value": "\"zh_cn\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1204,
+      "length": 7,
+      "value": "\"zh-CN\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 7,
+      "value": "\"zh_tw\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 7,
+      "value": "\"zh-TW\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3092,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3834,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4263,
+      "length": 48,
+      "value": "\"$h.speech.onSpeechToTextEventChanged(\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMSpeech\/8.0.1.0\/WMSpeech\/WMSpeechPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4308,
+      "length": 1,
+      "value": "\");\""
+    }
+  ]
+}

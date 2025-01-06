@@ -1,0 +1,11 @@
+framework module WMWebSquare {
+  umbrella header "WMWebSquare.h"
+  export *
+
+  module * { export * }
+}
+
+module WMWebSquare.Swift {
+  header "WMWebSquare-Swift.h"
+  requires objc
+}

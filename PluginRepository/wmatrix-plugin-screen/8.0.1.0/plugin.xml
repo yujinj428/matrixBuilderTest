@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<plugin id="wmatrix-plugin-screen" type="basic" version="8.0.1.0">
+	<name>Screen</name>
+	<description>WMatrix Screen Plugin</description>
+	<js-module name="screen" src="www/screen.js">
+		<clobbers target="wmatrix.plugin.screen" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="PluginConfig.plist">
+			<feature name="WMScreenPlugin">
+				<param name="ios-package" value="WMScreenPlugin" />
+			</feature>
+		</config-file>
+		<framework embed="true" src="src/WMScreen.framework" />
+	</platform>
+</plugin>

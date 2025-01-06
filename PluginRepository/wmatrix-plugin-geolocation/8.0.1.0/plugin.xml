@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<plugin id="wmatrix-plugin-geolocation" type="basic" version="8.0.1.0">
+	<name>WMGeolocation</name>
+	<platform name="ios">
+		<edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysUsageDescription">
+			<string>Need location access in background</string>
+		</edit-config>
+		<edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysAndWhenInUseUsageDescription">
+			<string>Need permission to use Location information</string>
+		</edit-config>
+		<js-module name="Coordinates" src="www/Coordinates.js">
+			<clobbers target="Coordinates" />
+		</js-module>
+		<js-module name="PositionError" src="www/PositionError.js">
+			<clobbers target="PositionError" />
+		</js-module>
+		<js-module name="Position" src="www/Position.js">
+			<clobbers target="Position" />
+		</js-module>
+		<js-module name="geolocation" src="www/geolocation.js">
+			<clobbers target="navigator.geolocation" />
+		</js-module>
+		<config-file parent="/*" target="PluginConfig.plist">
+			<feature name="WMGeolocationPlugin">
+				<param name="ios-package" value="WMGeolocationPlugin" />
+			</feature>
+		</config-file>
+		<framework embed="true" src="src/WMGeolocation.framework" />
+	</platform>
+</plugin>

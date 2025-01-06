@@ -1,0 +1,417 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "QuickLook",
+        "printedName": "QuickLook",
+        "declKind": "Import",
+        "moduleName": "WMWebSquare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMWebSquare"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMWebSquare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMWebSquare"
+      },
+      {
+        "kind": "Import",
+        "name": "QuickLook",
+        "printedName": "QuickLook",
+        "declKind": "Import",
+        "moduleName": "WMWebSquare"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMWebSquare"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1323,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1412,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1418,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1465,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1828,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2127,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2142,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2266,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2392,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2520,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2642,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2657,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2761,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2975,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3092,
+      "length": 18,
+      "value": "\"file path is nil\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3231,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3271,
+      "length": 11,
+      "value": "\"WMWebSquare.PreviewItem\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3772,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/preview\/WMWebSquarePreviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3493,
+      "length": 12,
+      "value": "\"WMWebSquare.WHDataSource\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 7,
+      "value": "\"%@\/%@\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1409,
+      "length": 7,
+      "value": "\"%@=%@\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1418,
+      "length": 10,
+      "value": "\"xmlValue\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1493,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 12,
+      "value": "\"text\/plain\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 87,
+      "value": "\"text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/webp,image\/apng,*\/*;q=0.8\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1744,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1779,
+      "length": 6,
+      "value": "\"Edge\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 1807,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2175,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2354,
+      "length": 21,
+      "value": "\"Content-Disposition\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 11,
+      "value": "\"filename=\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2577,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 3,
+      "value": "\";\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2651,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2715,
+      "length": 4,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2727,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2754,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2765,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2780,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2783,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 24,
+      "value": "\"savePath : \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 2878,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 3228,
+      "length": 11,
+      "value": "\"file:\/\/%@\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMWebSquare\/8.0.1.0\/WMWebSquare\/WMWebSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3920,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

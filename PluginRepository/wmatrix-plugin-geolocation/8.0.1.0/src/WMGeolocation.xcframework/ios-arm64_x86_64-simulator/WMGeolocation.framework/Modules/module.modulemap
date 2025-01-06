@@ -1,0 +1,11 @@
+framework module WMGeolocation {
+  umbrella header "WMGeolocation.h"
+  export *
+
+  module * { export * }
+}
+
+module WMGeolocation.Swift {
+  header "WMGeolocation-Swift.h"
+  requires objc
+}

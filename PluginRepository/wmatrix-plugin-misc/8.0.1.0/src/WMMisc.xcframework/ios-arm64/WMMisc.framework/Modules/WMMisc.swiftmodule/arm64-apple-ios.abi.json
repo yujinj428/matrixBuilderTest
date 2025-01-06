@@ -1,0 +1,1307 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMMisc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMMisc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMMisc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMMisc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMMisc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMMisc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMMisc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "ContactsUI",
+        "printedName": "ContactsUI",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "WMMisc"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 4,
+      "value": "\"on\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 5,
+      "value": "\"off\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 4,
+      "value": "\"on\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 5,
+      "value": "\"off\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 39,
+      "value": "\"Location Services are not determined.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 35,
+      "value": "\"Location Services are restricted.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 31,
+      "value": "\"Location Services are denied.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 31,
+      "value": "\"Location services are enabled\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 35,
+      "value": "\"Location services are not enabled\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 39,
+      "value": "\"Location Services are not determined.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 35,
+      "value": "\"Location Services are restricted.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 31,
+      "value": "\"Location Services are denied.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 31,
+      "value": "\"Location services are enabled\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 35,
+      "value": "\"Location services are not enabled\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 3345,
+      "length": 35,
+      "value": "\"Location services disabled device\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 3530,
+      "length": 9,
+      "value": "\"wifi on\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 3687,
+      "length": 10,
+      "value": "\"wifi off\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 3806,
+      "length": 21,
+      "value": "\"App-Prefs:root=WIFI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 4187,
+      "length": 19,
+      "value": "\"Cellular:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 4205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 4475,
+      "length": 40,
+      "value": "\"App-prefs:root=MOBILE_DATA_SETTINGS_ID\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 4965,
+      "length": 37,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 4978,
+      "length": 3,
+      "value": "\" msg:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 4989,
+      "length": 1,
+      "value": "\", url:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 5001,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 5059,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 5216,
+      "length": 28,
+      "value": "\"MISC_SETTINGS_ALERT_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 5453,
+      "length": 29,
+      "value": "\"MISC_SETTINGS_ALERT_CONFIRM\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "Dictionary",
+      "offset": 5634,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5983,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 6054,
+      "length": 53,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 6067,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 6106,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 4,
+      "value": "2071"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/ErrorCode.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 29,
+      "value": "\"Failed to get contact info.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 4,
+      "value": "2071"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 4,
+      "value": "2071"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 41,
+      "value": "\"kNetworkReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1511,
+      "length": 39,
+      "value": "\"info was NULL in ReachabilityCallback\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 46,
+      "value": "\"info was wrong class in ReachabilityCallback\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3128,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3902,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3968,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4341,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 4867,
+      "length": 23,
+      "value": "\"networkStatusForFlags\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 6376,
+      "length": 53,
+      "value": "\"connectionRequired called with NULL reachabilityRef\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "Array",
+      "offset": 6479,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6650,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 6763,
+      "length": 64,
+      "value": "\"currentNetworkStatus called with NULL SCNetworkReachabilityRef\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMReachability.swift",
+      "kind": "Array",
+      "offset": 6932,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/extension\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 28,
+      "value": "\"com.inswave.wmatrix.WMMisc\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/extension\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMLocationService.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 60,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMLocationService.swift",
+      "kind": "StringLiteral",
+      "offset": 837,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMLocationService.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 7,
+      "value": "\"awdl0\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1033,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1119,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1234,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1605,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1668,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1815,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "Dictionary",
+      "offset": 1418,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1595,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1774,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 1828,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 2067,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 2285,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 2298,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 2426,
+      "length": 8,
+      "value": "\"number\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 2484,
+      "length": 17,
+      "value": "\"tel:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "Dictionary",
+      "offset": 2784,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 3183,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 3196,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 3324,
+      "length": 8,
+      "value": "\"number\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 3382,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3968,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 4119,
+      "length": 41,
+      "value": "\"Devices that cannot send text messages.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 4330,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 4343,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4886,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5006,
+      "length": 29,
+      "value": "\"Not access to the contacts.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5200,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5213,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5417,
+      "length": 26,
+      "value": "\"not found webViewOptions\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5506,
+      "length": 4,
+      "value": "\"ip\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5584,
+      "length": 57,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5597,
+      "length": 1,
+      "value": "\" : \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5640,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5824,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 5837,
+      "length": 27,
+      "value": "\"MISC_SETTINGS_ALERT_TITLE\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6025,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 6113,
+      "length": 29,
+      "value": "\"MISC_SETTINGS_ALERT_CONFIRM\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 6557,
+      "length": 28,
+      "value": "\"MISC_SETTINGS_ALERT_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6655,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6849,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 7694,
+      "length": 41,
+      "value": "\"kNetworkReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 8726,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 8897,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 9306,
+      "length": 4,
+      "value": "\"2g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 9404,
+      "length": 4,
+      "value": "\"2g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 9503,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 9602,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 9702,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 9808,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 9914,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10020,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10119,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10216,
+      "length": 4,
+      "value": "\"4g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10289,
+      "length": 10,
+      "value": "\"cellular\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10389,
+      "length": 10,
+      "value": "\"cellular\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10465,
+      "length": 6,
+      "value": "\"wifi\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10598,
+      "length": 4,
+      "value": "\"2g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10627,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10656,
+      "length": 4,
+      "value": "\"4g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 10685,
+      "length": 10,
+      "value": "\"cellular\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "Array",
+      "offset": 11300,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 11473,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 11626,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 11694,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 11724,
+      "length": 11,
+      "value": "\"isConnect\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 11787,
+      "length": 11,
+      "value": "\"isConnect\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11802,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 11842,
+      "length": 114,
+      "value": "\"if(typeof $h != undefined && typeof $h.misc != undefined){$h.misc.onNetworkChanged(\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 11952,
+      "length": 1,
+      "value": "\");}\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12281,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12639,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12968,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 13653,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 13723,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 13741,
+      "length": 13,
+      "value": "\"phoneNumber\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 13789,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "FloatLiteral",
+      "offset": 13849,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14126,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMMisc\/8.0.1.0\/WMMisc\/WMMisc.swift",
+      "kind": "StringLiteral",
+      "offset": 14213,
+      "length": 29,
+      "value": "\"Failed to get contact info.\""
+    }
+  ]
+}

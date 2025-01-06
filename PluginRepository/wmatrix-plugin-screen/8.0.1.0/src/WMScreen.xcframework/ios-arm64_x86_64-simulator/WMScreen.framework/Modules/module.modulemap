@@ -1,0 +1,11 @@
+framework module WMScreen {
+  umbrella header "WMScreen.h"
+  export *
+
+  module * { export * }
+}
+
+module WMScreen.Swift {
+  header "WMScreen-Swift.h"
+  requires objc
+}

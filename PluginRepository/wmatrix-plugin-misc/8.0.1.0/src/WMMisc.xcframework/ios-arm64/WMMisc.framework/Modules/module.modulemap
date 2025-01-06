@@ -1,0 +1,11 @@
+framework module WMMisc {
+  umbrella header "WMMisc.h"
+  export *
+
+  module * { export * }
+}
+
+module WMMisc.Swift {
+  header "WMMisc-Swift.h"
+  requires objc
+}

@@ -1,0 +1,2587 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMCamera",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMCamera",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreServices",
+        "printedName": "CoreServices",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WMCameraPlugin",
+        "printedName": "WMCameraPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "webView",
+            "printedName": "webView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WMatrixMobile.WMatrixWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WMatrixWebView",
+                    "printedName": "WMatrixMobile.WMatrixWebView",
+                    "usr": "c:@M@WMatrixMobile@objc(cs)WMatrixWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin(py)webView",
+            "mangledName": "$s8WMCamera0A6PluginC7webView13WMatrixMobile0e3WebD0CSgvp",
+            "moduleName": "WMCamera",
+            "objc_name": "webView",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WMatrixMobile.WMatrixWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WMatrixWebView",
+                        "printedName": "WMatrixMobile.WMatrixWebView",
+                        "usr": "c:@M@WMatrixMobile@objc(cs)WMatrixWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin(im)webView",
+                "mangledName": "$s8WMCamera0A6PluginC7webView13WMatrixMobile0e3WebD0CSgvg",
+                "moduleName": "WMCamera",
+                "implicit": true,
+                "objc_name": "webView",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin(py)viewController",
+            "mangledName": "$s8WMCamera0A6PluginC14viewControllerSo06UIViewD0CSgvp",
+            "moduleName": "WMCamera",
+            "objc_name": "viewController",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin(im)viewController",
+                "mangledName": "$s8WMCamera0A6PluginC14viewControllerSo06UIViewD0CSgvg",
+                "moduleName": "WMCamera",
+                "implicit": true,
+                "objc_name": "viewController",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin(im)setViewController:",
+                "mangledName": "$s8WMCamera0A6PluginC14viewControllerSo06UIViewD0CSgvs",
+                "moduleName": "WMCamera",
+                "implicit": true,
+                "objc_name": "setViewController:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WMCamera0A6PluginC14viewControllerSo06UIViewD0CSgvM",
+                "mangledName": "$s8WMCamera0A6PluginC14viewControllerSo06UIViewD0CSgvM",
+                "moduleName": "WMCamera",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WMCameraPlugin",
+                "printedName": "WMCamera.WMCameraPlugin",
+                "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin(im)init",
+            "mangledName": "$s8WMCamera0A6PluginCACycfc",
+            "moduleName": "WMCamera",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerController",
+            "printedName": "imagePickerController(_:didFinishPickingMediaWithInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfoKey",
+                    "printedName": "UIKit.UIImagePickerController.InfoKey",
+                    "usr": "c:@T@UIImagePickerControllerInfoKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMCamera@objc(cs)WMCameraPlugin(im)imagePickerController:didFinishPickingMediaWithInfo:",
+            "mangledName": "$s8WMCamera0A6PluginC21imagePickerController_29didFinishPickingMediaWithInfoySo07UIImagedE0C_SDySo0ldeK3KeyaypGtF",
+            "moduleName": "WMCamera",
+            "objc_name": "imagePickerController:didFinishPickingMediaWithInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerControllerDidCancel",
+            "printedName": "imagePickerControllerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMCamera@objc(cs)WMCameraPlugin(im)imagePickerControllerDidCancel:",
+            "mangledName": "$s8WMCamera0A6PluginC30imagePickerControllerDidCancelyySo07UIImagedE0CF",
+            "moduleName": "WMCamera",
+            "objc_name": "imagePickerControllerDidCancel:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMCamera@objc(cs)WMCameraPlugin(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s8WMCamera0A6PluginC15locationManager_18didUpdateLocationsySo010CLLocationD0C_SaySo0H0CGtF",
+            "moduleName": "WMCamera",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWWebView",
+            "printedName": "setWWebView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WMatrixWebView",
+                "printedName": "WMatrixMobile.WMatrixWebView",
+                "usr": "c:@M@WMatrixMobile@objc(cs)WMatrixWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMCamera@objc(cs)WMCameraPlugin(im)setWWebView:",
+            "mangledName": "$s8WMCamera0A6PluginC11setWWebViewyy13WMatrixMobile0f3WebE0CF",
+            "moduleName": "WMCamera",
+            "objc_name": "setWWebView:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@WMCamera@objc(cs)WMCameraPlugin(im)dispose",
+            "mangledName": "$s8WMCamera0A6PluginC7disposeyyF",
+            "moduleName": "WMCamera",
+            "objc_name": "dispose",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WMCamera@objc(cs)WMCameraPlugin",
+        "mangledName": "$s8WMCamera0A6PluginC",
+        "moduleName": "WMCamera",
+        "objc_name": "WMCameraPlugin",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "WMatrixPluginProtocol",
+            "printedName": "WMatrixPluginProtocol",
+            "usr": "c:@M@WMatrixMobile@objc(pl)WMatrixPluginProtocol",
+            "mangledName": "$s13WMatrixMobile0A14PluginProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMCamera",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMCamera",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreServices",
+        "printedName": "CoreServices",
+        "declKind": "Import",
+        "moduleName": "WMCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMCamera",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 449,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 571,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 579,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1131,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1251,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1987,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2579,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2912,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2944,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3156,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3186,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3264,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3294,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3565,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3588,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 3673,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 3681,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3929,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3943,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4077,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4100,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5233,
+      "length": 20,
+      "value": "\"CFBundleExecutable\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5298,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5311,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5319,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 6668,
+      "length": 21,
+      "value": "\"PHImageManagerError\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6697,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 6738,
+      "length": 28,
+      "value": "\"Failed to fetch image data\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 7229,
+      "length": 27,
+      "value": "\"AVAssetExportSessionError\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7264,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 7305,
+      "length": 15,
+      "value": "\"Export failed\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 7423,
+      "length": 27,
+      "value": "\"AVAssetExportSessionError\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7458,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 7499,
+      "length": 18,
+      "value": "\"Export cancelled\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 7612,
+      "length": 27,
+      "value": "\"AVAssetExportSessionError\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7647,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 7688,
+      "length": 37,
+      "value": "\"Export ended with unexpected status\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 16,
+      "value": "\"wmatrix_photo_\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1024,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1912,
+      "length": 6,
+      "value": "\"file\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2227,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2273,
+      "length": 34,
+      "value": "\"CAMERA_PERMISSION_REJECT_CONFIRM\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2362,
+      "length": 10,
+      "value": "\"SETTINGS\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 8,
+      "value": "\"CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2553,
+      "length": 40,
+      "value": "\"Not have permission to use the camera.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2892,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 3104,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3295,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3394,
+      "length": 40,
+      "value": "\"Not have permission to use the camera.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3481,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3786,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3989,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4393,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4402,
+      "length": 87,
+      "value": "\"Camera.getPicture: source type \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4473,
+      "length": 3,
+      "value": "\" not available.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4563,
+      "length": 24,
+      "value": "\"Camera disabled device\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6105,
+      "length": 28,
+      "value": "\"PHAuthorization Authorized\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6351,
+      "length": 38,
+      "value": "\"PHAuthorization denied or restricted\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6469,
+      "length": 31,
+      "value": "\"has no access to PhotoLibrary\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6819,
+      "length": 15,
+      "value": "\"NO_PERMISSION\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6906,
+      "length": 31,
+      "value": "\"has no access to PhotoLibrary\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7476,
+      "length": 41,
+      "value": "\"One or more files failed to be deleted.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7569,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7959,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7968,
+      "length": 80,
+      "value": "\"Failed to delete: \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8009,
+      "length": 1,
+      "value": "\" (error: \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8047,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8148,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8219,
+      "length": 41,
+      "value": "\"One or more files failed to be deleted.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8645,
+      "length": 25,
+      "value": "\"Not supported mediaType\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9035,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9099,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9190,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9236,
+      "length": 40,
+      "value": "\"PHOTOLIBRARY_PERMISSION_REJECT_CONFIRM\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9328,
+      "length": 10,
+      "value": "\"SETTINGS\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9394,
+      "length": 8,
+      "value": "\"CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 9830,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9944,
+      "length": 40,
+      "value": "\"Not have permission to use the camera.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10136,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10231,
+      "length": 32,
+      "value": "\"has no access to PhotoLibrary.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11094,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11099,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11140,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12068,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12074,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12110,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12116,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12188,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 12321,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12430,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13053,
+      "length": 31,
+      "value": "\"requestWhenInUseAuthorization\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13110,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13599,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13709,
+      "length": 16,
+      "value": "\"yyyyMMddhhmmss\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13817,
+      "length": 50,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13829,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13844,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13854,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13866,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 14239,
+      "length": 38,
+      "value": "\"saveToPhotoAlbum \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 14276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 14792,
+      "length": 26,
+      "value": "\"taskResult \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 14817,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 14913,
+      "length": 25,
+      "value": "\"save photoAlbum success\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 15037,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 15046,
+      "length": 39,
+      "value": "\"error : \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 15084,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15375,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 15545,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 15681,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16387,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16406,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16488,
+      "length": 5,
+      "value": "\"PNG\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16495,
+      "length": 5,
+      "value": "\"JPG\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16536,
+      "length": 62,
+      "value": "\"assets-library:\/\/asset\/asset.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16572,
+      "length": 1,
+      "value": "\"?id=\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16586,
+      "length": 1,
+      "value": "\"&ext=\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16597,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16734,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16746,
+      "length": 25,
+      "value": "\"URL PathIsWrong \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16770,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 16983,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 17182,
+      "length": 33,
+      "value": "\"nativeUri :\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 17211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 17214,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 17333,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 17521,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 17865,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 17872,
+      "length": 5,
+      "value": "\"jpg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 18249,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 18261,
+      "length": 20,
+      "value": "\"Invalid image path\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 18401,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 18602,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 18614,
+      "length": 23,
+      "value": "\"Fail write image file\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20517,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21123,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21372,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21637,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21814,
+      "length": 60,
+      "value": "\"data:image\/png;base64,\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21870,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21873,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21921,
+      "length": 61,
+      "value": "\"data:image\/jpeg;base64,\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21978,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 21981,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 22115,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 22567,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 22579,
+      "length": 19,
+      "value": "\"Fail take picture\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22660,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 22837,
+      "length": 5,
+      "value": "\"mp4\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 23146,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23171,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23344,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 23623,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 23635,
+      "length": 19,
+      "value": "\"Fail take picture\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 23802,
+      "length": 53,
+      "value": "\"data:video\/mp4;base64,\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 23854,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 23886,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 24005,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 24169,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 24181,
+      "length": 19,
+      "value": "\"Fail take picture\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 24311,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24987,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 25334,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 25341,
+      "length": 5,
+      "value": "\"jpg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 25623,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 25812,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 25952,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 25964,
+      "length": 19,
+      "value": "\"Invalid file path\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 26123,
+      "length": 13,
+      "value": "\"callbackURI\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 26673,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26903,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 27473,
+      "length": 25,
+      "value": "\"save photoAlbum success\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 27559,
+      "length": 46,
+      "value": "\"error : \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 27601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 27604,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 27795,
+      "length": 9,
+      "value": "\"WMatrix\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 27814,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 27897,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28426,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 29094,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 29221,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 29701,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 29820,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 30333,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 30344,
+      "length": 25,
+      "value": "\"has no access to camera\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 30556,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 30567,
+      "length": 25,
+      "value": "\"has no access to assets\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 30692,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 30703,
+      "length": 19,
+      "value": "\"no image selected\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30933,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31359,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31427,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 31560,
+      "length": 3,
+      "value": "\"S\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 31644,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 31858,
+      "length": 3,
+      "value": "\"W\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 31943,
+      "length": 3,
+      "value": "\"E\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32086,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32143,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 32251,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 32343,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 32520,
+      "length": 17,
+      "value": "\"HH:mm:ss.SSSSSS\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 32590,
+      "length": 5,
+      "value": "\"UTC\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/WMCameraPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 32736,
+      "length": 12,
+      "value": "\"yyyy:MM:dd\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 474,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 509,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 648,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 860,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 874,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 979,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 993,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1116,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1309,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1373,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1579,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1690,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1704,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1776,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1871,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1886,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1964,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1979,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2045,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2061,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2221,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/PictureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/CameraPicker.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/CameraPicker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/CameraPicker.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 61,
+      "value": "\"cameraDirection \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/CameraPicker.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/CameraPicker.swift",
+      "kind": "Array",
+      "offset": 1275,
+      "length": 16,
+      "value": "[\"public.movie\"]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 159,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 22,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 202,
+      "length": 24,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 159,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 22,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 202,
+      "length": 24,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 159,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 22,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 202,
+      "length": 24,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 14,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 14,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 14,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMCamera\/8.0.1.0\/WMCamera\/Model\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 12,
+      "value": "2"
+    }
+  ]
+}

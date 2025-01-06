@@ -1,0 +1,1040 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMScreen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMScreen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMScreen"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMScreen"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "WMScreen"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 6,
+      "value": "\"2010\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 6,
+      "value": "\"2011\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 6,
+      "value": "\"2012\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 6,
+      "value": "\"2019\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 6,
+      "value": "\"2013\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 6,
+      "value": "\"2018\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 6,
+      "value": "\"2020\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 6,
+      "value": "\"2017\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 6,
+      "value": "\"2021\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 6,
+      "value": "\"2024\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 6,
+      "value": "\"2025\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 22,
+      "value": "\"App is not installed\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 21,
+      "value": "\"App reset canceled.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 22,
+      "value": "\"App finish canceled.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 17,
+      "value": "\"Fail screenshot\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 907,
+      "length": 30,
+      "value": "\"Preference key is not match.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 28,
+      "value": "\"Language is not supported.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 24,
+      "value": "\"Email is not available\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 28,
+      "value": "\"Failed to upload log file.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 30,
+      "value": "\"Speech to text engine error.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1252,
+      "length": 21,
+      "value": "\"TTS is not running.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 21,
+      "value": "\"TTS stopping failed\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 6,
+      "value": "\"2010\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 6,
+      "value": "\"2011\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 6,
+      "value": "\"2012\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 6,
+      "value": "\"2019\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 6,
+      "value": "\"2013\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 6,
+      "value": "\"2018\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 6,
+      "value": "\"2020\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 6,
+      "value": "\"2017\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 6,
+      "value": "\"2021\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 6,
+      "value": "\"2024\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/StatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 6,
+      "value": "\"2025\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 5,
+      "value": "24680"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 34,
+      "value": "\"WMAppPlugin_\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 52,
+      "value": "\"localWebServer Port:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1473,
+      "length": 8,
+      "value": "\"method\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1497,
+      "length": 5,
+      "value": "\"get\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1602,
+      "length": 6,
+      "value": "\"post\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1644,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1771,
+      "length": 8,
+      "value": "\"header\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2173,
+      "length": 10,
+      "value": "\"bodyData\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2266,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2497,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3023,
+      "length": 10,
+      "value": "\"bodyData\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3049,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3168,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3283,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3299,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3364,
+      "length": 85,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3396,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3400,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3438,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3444,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3448,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3559,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3746,
+      "length": 10,
+      "value": "\"bodyData\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3983,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4080,
+      "length": 10,
+      "value": "\"bodyData\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4313,
+      "length": 15,
+      "value": "\"closeCallback\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4344,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4568,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4599,
+      "length": 60,
+      "value": "\"makeWebView tag: \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4630,
+      "length": 1,
+      "value": "\", newTag: \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4995,
+      "length": 4,
+      "value": "0x2A"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5045,
+      "length": 4,
+      "value": "0x2D"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5055,
+      "length": 4,
+      "value": "0x2E"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5107,
+      "length": 4,
+      "value": "0x30"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5117,
+      "length": 4,
+      "value": "0x39"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5172,
+      "length": 4,
+      "value": "0x41"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5182,
+      "length": 4,
+      "value": "0x5A"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5223,
+      "length": 4,
+      "value": "0x5F"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5274,
+      "length": 4,
+      "value": "0x61"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5284,
+      "length": 4,
+      "value": "0x7A"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5323,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5744,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5755,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6105,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6150,
+      "length": 79,
+      "value": "\"remove WebViewID:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6195,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6198,
+      "length": 1,
+      "value": "\", webViewOptions tag:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6269,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6672,
+      "length": 18,
+      "value": "\"not found newTag\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6941,
+      "length": 9,
+      "value": "\"allView\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7001,
+      "length": 9,
+      "value": "\"quality\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7027,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7063,
+      "length": 11,
+      "value": "\"saveAlbum\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7600,
+      "length": 25,
+      "value": "\"Fail convert imagedata.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7697,
+      "length": 35,
+      "value": "\"data:image\/jpg;base64,\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7731,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8207,
+      "length": 25,
+      "value": "\"Fail convert imagedata.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8304,
+      "length": 35,
+      "value": "\"data:image\/jpg;base64,\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8338,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8434,
+      "length": 11,
+      "value": "\"imgBase64\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8769,
+      "length": 12,
+      "value": "\"brightness\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8922,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8955,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9024,
+      "length": 36,
+      "value": "\"possible use value size is 0 ~ 100\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9228,
+      "length": 34,
+      "value": "\"Not Found visible viewcontroller\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9381,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9519,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9623,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9673,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10081,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10175,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10270,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10367,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10466,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10692,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10705,
+      "length": 1,
+      "value": "\": tag:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10735,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10812,
+      "length": 12,
+      "value": "\"subWebview\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11588,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11674,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11686,
+      "length": 1,
+      "value": "\"('\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11695,
+      "length": 29,
+      "value": "\"');\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11858,
+      "length": 46,
+      "value": "\"remove WebViewID:\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11900,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 11903,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12302,
+      "length": 6,
+      "value": "\"http\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12330,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12726,
+      "length": 6,
+      "value": "\".xml\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12846,
+      "length": 69,
+      "value": "\"http:\/\/localhost:%@\/\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12878,
+      "length": 1,
+      "value": "\"\/websquare\/websquare.html?w2xPath=%@\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13003,
+      "length": 57,
+      "value": "\"http:\/\/localhost:%@\/websquare\/websquare.html?w2xPath=%@\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13175,
+      "length": 23,
+      "value": "\"http:\/\/localhost:%@%@\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 13520,
+      "length": 26,
+      "value": "\"inswave.wmatrix.WMScreen\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14310,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMScreen\/8.0.1.0\/WMScreen\/WMScreenPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14717,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

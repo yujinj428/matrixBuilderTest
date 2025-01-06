@@ -1,0 +1,11 @@
+framework module WMLogger {
+  umbrella header "WMLogger.h"
+  export *
+
+  module * { export * }
+}
+
+module WMLogger.Swift {
+  header "WMLogger-Swift.h"
+  requires objc
+}

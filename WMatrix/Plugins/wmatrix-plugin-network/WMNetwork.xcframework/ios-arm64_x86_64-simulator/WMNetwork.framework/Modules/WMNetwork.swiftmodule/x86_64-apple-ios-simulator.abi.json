@@ -1,0 +1,382 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "WMNetwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "WMNetwork"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMNetwork"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMNetwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "WMNetwork"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 41,
+      "value": "\"kNetworkReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1552,
+      "length": 39,
+      "value": "\"info was NULL in ReachabilityCallback\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 46,
+      "value": "\"info was wrong class in ReachabilityCallback\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3155,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3927,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3993,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 4892,
+      "length": 23,
+      "value": "\"networkStatusForFlags\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 6391,
+      "length": 53,
+      "value": "\"connectionRequired called with NULL reachabilityRef\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "Array",
+      "offset": 6494,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6665,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 6778,
+      "length": 64,
+      "value": "\"currentNetworkStatus called with NULL SCNetworkReachabilityRef\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/Reachability.swift",
+      "kind": "Array",
+      "offset": 6947,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 41,
+      "value": "\"kNetworkReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 752,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "BooleanLiteral",
+      "offset": 880,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "BooleanLiteral",
+      "offset": 914,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2930,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 3417,
+      "length": 4,
+      "value": "\"2g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 3521,
+      "length": 4,
+      "value": "\"2g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 3626,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 3731,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 3836,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 3942,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4054,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4166,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4278,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4383,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4486,
+      "length": 4,
+      "value": "\"4g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4668,
+      "length": 4,
+      "value": "\"5g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4779,
+      "length": 4,
+      "value": "\"5g\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4846,
+      "length": 10,
+      "value": "\"cellular\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4901,
+      "length": 6,
+      "value": "\"wifi\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMNetwork\/8.0.1.0\/WMNetwork\/WMNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 4958,
+      "length": 6,
+      "value": "\"none\""
+    }
+  ]
+}

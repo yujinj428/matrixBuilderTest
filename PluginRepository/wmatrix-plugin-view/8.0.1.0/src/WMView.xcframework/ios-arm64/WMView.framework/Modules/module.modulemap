@@ -1,0 +1,11 @@
+framework module WMView {
+  umbrella header "WMView.h"
+  export *
+
+  module * { export * }
+}
+
+module WMView.Swift {
+  header "WMView-Swift.h"
+  requires objc
+}

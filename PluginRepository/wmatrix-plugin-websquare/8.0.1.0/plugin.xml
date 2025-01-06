@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<plugin id="wmatrix-plugin-websquare" type="basic" version="8.0.1.0">
+	<name>websquare</name>
+	<description>Wmatrix WebSquare Plugin</description>
+	<js-module name="websquare" src="www/websquare.js">
+		<clobbers target="wmatrix.plugin.websquare" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="PluginConfig.plist">
+			<feature name="WMWebSquarePlugin">
+				<param name="ios-package" value="WMWebSquarePlugin" />
+			</feature>
+		</config-file>
+		<framework embed="true" src="src/WMWebSquare.framework" />
+	</platform>
+</plugin>

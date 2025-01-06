@@ -1,0 +1,11 @@
+framework module WMStorage {
+  umbrella header "WMStorage.h"
+  export *
+
+  module * { export * }
+}
+
+module WMStorage.Swift {
+  header "WMStorage-Swift.h"
+  requires objc
+}

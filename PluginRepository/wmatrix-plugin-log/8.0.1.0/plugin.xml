@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<plugin id="wmatrix-plugin-log" type="basic" version="8.0.1.0">
+	<name>Logger</name>
+	<description>WMatrix Logger Plugin</description>
+	<js-module name="wmlogger" src="www/wmlogger.js">
+		<clobbers target="wmatrix.plugin.log" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="PluginConfig.plist">
+			<feature name="WMLoggerPlugin">
+				<param name="ios-package" value="WMLoggerPlugin" />
+				<param name="onload" value="true" />
+			</feature>
+		</config-file>
+		<framework embed="true" src="src/WMLogger.framework" />
+	</platform>
+</plugin>

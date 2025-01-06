@@ -1,0 +1,452 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMApp"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "WMApp"
+      },
+      {
+        "kind": "Import",
+        "name": "WMatrixMobile",
+        "printedName": "WMatrixMobile",
+        "declKind": "Import",
+        "moduleName": "WMApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WMApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WMApp"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 819,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 10,
+      "value": "\"errorMsg\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1007,
+      "length": 23,
+      "value": "\"Fail get version Info\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1141,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 13,
+      "value": "\"versionCode\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1534,
+      "length": 14,
+      "value": "\"cancelButton\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1562,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1599,
+      "length": 7,
+      "value": "\"popup\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1657,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 25,
+      "value": "\"APPFINISH_ALERT_MESSAGE\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2118,
+      "length": 22,
+      "value": "\"APPFINISH_ALERT_DONE\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2585,
+      "length": 11,
+      "value": "500000000"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2623,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2814,
+      "length": 24,
+      "value": "\"APPFINISH_ALERT_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3419,
+      "length": 34,
+      "value": "\"Not found visible viewcontroller\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3781,
+      "length": 11,
+      "value": "100000000"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3815,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4051,
+      "length": 11,
+      "value": "\"appScheme\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4204,
+      "length": 32,
+      "value": "\"Required parameter not defined\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4308,
+      "length": 11,
+      "value": "\"gotoStore\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4333,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4583,
+      "length": 13,
+      "value": "\"storeScheme\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4723,
+      "length": 32,
+      "value": "\"Required parameter not defined\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4935,
+      "length": 9,
+      "value": "\"appName\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4960,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5023,
+      "length": 21,
+      "value": "\"APP_INSTALL_MESSAGE\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5049,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5425,
+      "length": 22,
+      "value": "\"APPFINISH_ALERT_DONE\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5452,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5599,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 5922,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6205,
+      "length": 24,
+      "value": "\"APPFINISH_ALERT_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6234,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6508,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6797,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6913,
+      "length": 34,
+      "value": "\"Not found visible viewcontroller\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/WMAppPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7754,
+      "length": 23,
+      "value": "\"inswave.wmatrix.WMApp\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 6,
+      "value": "\"2010\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 6,
+      "value": "\"2011\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 6,
+      "value": "\"2012\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 22,
+      "value": "\"App is not installed\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 21,
+      "value": "\"App reset canceled.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 22,
+      "value": "\"App finish canceled.\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 6,
+      "value": "\"2010\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 6,
+      "value": "\"2011\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/StateCode.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 6,
+      "value": "\"2012\""
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 641,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/uapmobile\/TNB\/new\/source\/ios\/W-Matrix-Plugin-iOS\/basic\/WMApp\/8.0.1.0\/WMApp\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 774,
+      "length": 4,
+      "value": "1000"
+    }
+  ]
+}
