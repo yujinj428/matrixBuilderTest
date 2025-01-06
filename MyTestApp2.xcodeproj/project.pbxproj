@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014BF7A07FDE769BF4997BD5 /* WMApp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB9DF82552E407DC0D722C5 /* WMApp.xcframework */; };
-		18E95ADBDA0C7E8FBCF66C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD6960263C045700CE0393 /* AppDelegate.swift */; };
-		1B37206A2110F00D0D598E4A /* WMatrixMobile.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B14FF562B1E08D8026776D4 /* WMatrixMobile.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		21D00A4C6C1225DB692F52B6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF1076B273A0A3C0009741C /* LoadingView.swift */; };
-		239D5FE8CBE968072FA91315 /* GCDWebServers.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA293556D4ECDEE6519E6D33 /* GCDWebServers.xcframework */; };
-		37D88580ABF2726FCCF3279D /* WMNetwork.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61F59B0657AB4B74771C6A94 /* WMNetwork.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		43F752CA2769A45D0AC49D21 /* WMatrix.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6686E52929066FC3008B2CC0 /* WMatrix.bundle */; };
-		48CAC14FBC1BDD4A4335D535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABD6972263C046600CE0393 /* Main.storyboard */; };
-		56048D32EFEE6DB1AA80623C /* WMatrixMobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B14FF562B1E08D8026776D4 /* WMatrixMobile.xcframework */; };
-		5A0CE3410036A7F698693FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A415C8928F686EB00A03CD8 /* Assets.xcassets */; };
-		5A18DE8EF973650A6A9F9D3D /* GCDWebServers.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA293556D4ECDEE6519E6D33 /* GCDWebServers.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		68EEA024C1D40ED139C49669 /* WMCamera.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B188870441087A620CEF96 /* WMCamera.xcframework */; };
-		6A0AC2752DD317FC281DB5FF /* WMDevice.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47413F43F57A19B0D534BB1A /* WMDevice.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6A60A61F30472E30BD950DCD /* ZipArchive.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A13654B0E55BBFD9AC5464E /* ZipArchive.xcframework */; };
-		6D625733024036E3C46AB1DE /* WMNetwork.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F59B0657AB4B74771C6A94 /* WMNetwork.xcframework */; };
-		7701C08143C37232538664BC /* WMCamera.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4B188870441087A620CEF96 /* WMCamera.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		8E855D378BC8F056BFDF5F71 /* SamplePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA9C1E29382A5500F47681 /* SamplePlugin.swift */; };
-		930AD6BD0D9FC6B6A8BB26FD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABD6970263C046600CE0393 /* Launch Screen.storyboard */; };
-		9EB3F083DF98827D04DABC6E /* WMDevice.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47413F43F57A19B0D534BB1A /* WMDevice.xcframework */; };
-		AD6EC9D150EB0143377F6630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4020C27A3B64F00620A3E /* SceneDelegate.swift */; };
-		B8AE4469B43442B877C19431 /* ZipArchive.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A13654B0E55BBFD9AC5464E /* ZipArchive.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		C6B94785633766A5BF87B4FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C3597271FB8C0009756B8 /* MainViewController.swift */; };
-		D316E0196D1A04A747740DBF /* WMApp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB9DF82552E407DC0D722C5 /* WMApp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		F2DF293EECDE41F8D5BAB970 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABD6966263C045700CE0393 /* LoadingView.xib */; };
+		124371A767303AE4818D9BC8 /* ZipArchive.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A13654B0E55BBFD9AC5464E /* ZipArchive.xcframework */; };
+		1A9B470B1E906D4FE0839D71 /* SamplePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA9C1E29382A5500F47681 /* SamplePlugin.swift */; };
+		26FCD4871AB8D3240BCC2306 /* WMCamera.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4B188870441087A620CEF96 /* WMCamera.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		340AE6C676D8E63FE96AEDDF /* WMNetwork.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F59B0657AB4B74771C6A94 /* WMNetwork.xcframework */; };
+		34F00FFE2321A8F4A6B6F200 /* WMDevice.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47413F43F57A19B0D534BB1A /* WMDevice.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		530850C82E2198C54412C792 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABD6970263C046600CE0393 /* Launch Screen.storyboard */; };
+		5764E8B4445F5A1A0D8AF005 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C3597271FB8C0009756B8 /* MainViewController.swift */; };
+		699B4A8C55E8DA86FDD69EEC /* WMDevice.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47413F43F57A19B0D534BB1A /* WMDevice.xcframework */; };
+		6CDDABBD53BE19ACDCAB695D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABD6972263C046600CE0393 /* Main.storyboard */; };
+		6DA94D7A2CA187FE95EBE85F /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABD6966263C045700CE0393 /* LoadingView.xib */; };
+		8CF9BAC285BCBD0F201EAD08 /* WMatrixMobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B14FF562B1E08D8026776D4 /* WMatrixMobile.xcframework */; };
+		8E6AC53DDE52FC0447B7107C /* WMApp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB9DF82552E407DC0D722C5 /* WMApp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8F42960EE309628667B959E7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF1076B273A0A3C0009741C /* LoadingView.swift */; };
+		999819C374B9140794362DB9 /* WMApp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB9DF82552E407DC0D722C5 /* WMApp.xcframework */; };
+		A0EFB6185BDBC09A977AECAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD6960263C045700CE0393 /* AppDelegate.swift */; };
+		A6C17B03618A292659F5E62B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4020C27A3B64F00620A3E /* SceneDelegate.swift */; };
+		B2B9BB3B4A44258675E94B13 /* WMNetwork.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61F59B0657AB4B74771C6A94 /* WMNetwork.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C106C1A2AD4C9F8895A55528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A415C8928F686EB00A03CD8 /* Assets.xcassets */; };
+		CD398571FAFFDF4ABAFFF9F4 /* GCDWebServers.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA293556D4ECDEE6519E6D33 /* GCDWebServers.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D0E33B77DDF0CFB8A65BC588 /* GCDWebServers.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA293556D4ECDEE6519E6D33 /* GCDWebServers.xcframework */; };
+		D30D4E6904C873C3BC2B23DE /* WMCamera.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B188870441087A620CEF96 /* WMCamera.xcframework */; };
+		E23DB49DA304FB9AF3969FB9 /* ZipArchive.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A13654B0E55BBFD9AC5464E /* ZipArchive.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E7AD1A134F419FE26C0916E2 /* WMatrix.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6686E52929066FC3008B2CC0 /* WMatrix.bundle */; };
+		FF38328A939895E655C628EB /* WMatrixMobile.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B14FF562B1E08D8026776D4 /* WMatrixMobile.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		32FB5EA617F76E167A753B4E /* Embed Frameworks */ = {
+		B90A438C2D2DF3EE50E03E09 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				37D88580ABF2726FCCF3279D /* WMNetwork.xcframework in Embed Frameworks */,
-				5A18DE8EF973650A6A9F9D3D /* GCDWebServers.xcframework in Embed Frameworks */,
-				1B37206A2110F00D0D598E4A /* WMatrixMobile.xcframework in Embed Frameworks */,
-				B8AE4469B43442B877C19431 /* ZipArchive.xcframework in Embed Frameworks */,
-				6A0AC2752DD317FC281DB5FF /* WMDevice.xcframework in Embed Frameworks */,
-				D316E0196D1A04A747740DBF /* WMApp.xcframework in Embed Frameworks */,
-				7701C08143C37232538664BC /* WMCamera.xcframework in Embed Frameworks */,
+				B2B9BB3B4A44258675E94B13 /* WMNetwork.xcframework in Embed Frameworks */,
+				CD398571FAFFDF4ABAFFF9F4 /* GCDWebServers.xcframework in Embed Frameworks */,
+				FF38328A939895E655C628EB /* WMatrixMobile.xcframework in Embed Frameworks */,
+				E23DB49DA304FB9AF3969FB9 /* ZipArchive.xcframework in Embed Frameworks */,
+				34F00FFE2321A8F4A6B6F200 /* WMDevice.xcframework in Embed Frameworks */,
+				8E6AC53DDE52FC0447B7107C /* WMApp.xcframework in Embed Frameworks */,
+				26FCD4871AB8D3240BCC2306 /* WMCamera.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +59,7 @@
 		61F59B0657AB4B74771C6A94 /* WMNetwork.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = WMNetwork.xcframework; path = WMNetwork.xcframework; sourceTree = "<group>"; };
 		6686E52929066FC3008B2CC0 /* WMatrix.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMatrix.bundle; sourceTree = "<group>"; };
 		7B14FF562B1E08D8026776D4 /* WMatrixMobile.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = WMatrixMobile.xcframework; path = WMatrixMobile.xcframework; sourceTree = "<group>"; };
+		8CD8DE44AE17CDC08AB1C7E1 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Template.app; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0C3597271FB8C0009756B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9A415C8928F686EB00A03CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAA9C1E29382A5500F47681 /* SamplePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplePlugin.swift; sourceTree = "<group>"; };
@@ -70,23 +71,22 @@
 		9AF1076B273A0A3C0009741C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9DB9DF82552E407DC0D722C5 /* WMApp.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = WMApp.xcframework; path = WMApp.xcframework; sourceTree = "<group>"; };
 		A4B188870441087A620CEF96 /* WMCamera.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = WMCamera.xcframework; path = WMCamera.xcframework; sourceTree = "<group>"; };
-		D4C7D200DCE6A87E0E8FA344 /* Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Template-Info.plist"; path = "/Users/yujin/wmb_home/projects/ios/a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11/Matrix_Mobile_iOS/source/MyTestApp2/Template-Info.plist"; sourceTree = "<group>"; };
-		E546AEEC2F2D6F2BC0CC2D3E /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Template.app; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF70DFC2A4C17798FACAA58E /* Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Template-Info.plist"; path = "/Users/yujin/wmb_home/projects/ios/a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11/Matrix_Mobile_iOS2/source/MyTestApp2/Template-Info.plist"; sourceTree = "<group>"; };
 		FA293556D4ECDEE6519E6D33 /* GCDWebServers.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = GCDWebServers.xcframework; path = GCDWebServers.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09DE4BE3D0CF029D40022BDB /* Frameworks */ = {
+		3D8B613D1B4292C69B927EAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D625733024036E3C46AB1DE /* WMNetwork.xcframework in Frameworks */,
-				239D5FE8CBE968072FA91315 /* GCDWebServers.xcframework in Frameworks */,
-				56048D32EFEE6DB1AA80623C /* WMatrixMobile.xcframework in Frameworks */,
-				6A60A61F30472E30BD950DCD /* ZipArchive.xcframework in Frameworks */,
-				9EB3F083DF98827D04DABC6E /* WMDevice.xcframework in Frameworks */,
-				014BF7A07FDE769BF4997BD5 /* WMApp.xcframework in Frameworks */,
-				68EEA024C1D40ED139C49669 /* WMCamera.xcframework in Frameworks */,
+				340AE6C676D8E63FE96AEDDF /* WMNetwork.xcframework in Frameworks */,
+				D0E33B77DDF0CFB8A65BC588 /* GCDWebServers.xcframework in Frameworks */,
+				8CF9BAC285BCBD0F201EAD08 /* WMatrixMobile.xcframework in Frameworks */,
+				124371A767303AE4818D9BC8 /* ZipArchive.xcframework in Frameworks */,
+				699B4A8C55E8DA86FDD69EEC /* WMDevice.xcframework in Frameworks */,
+				999819C374B9140794362DB9 /* WMApp.xcframework in Frameworks */,
+				D30D4E6904C873C3BC2B23DE /* WMCamera.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 		9A87CFED263A82130031B526 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E546AEEC2F2D6F2BC0CC2D3E /* Template.app */,
+				8CD8DE44AE17CDC08AB1C7E1 /* Template.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 				9AB4020C27A3B64F00620A3E /* SceneDelegate.swift */,
 				9AF1076B273A0A3C0009741C /* LoadingView.swift */,
 				9A0C3597271FB8C0009756B8 /* MainViewController.swift */,
-				D4C7D200DCE6A87E0E8FA344 /* Template-Info.plist */,
+				AF70DFC2A4C17798FACAA58E /* Template-Info.plist */,
 			);
 			path = MyTestApp2;
 			sourceTree = "<group>";
@@ -202,15 +202,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64AA67ED841D6105129F1CC7 /* Template */ = {
+		7A0889C668ADDEFCEAFC33BE /* Template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C5385A3F5BCF2D1153357F2 /* Build configuration list for PBXNativeTarget "Template" */;
+			buildConfigurationList = 4C71F9F77404B3E10953374D /* Build configuration list for PBXNativeTarget "Template" */;
 			buildPhases = (
-				6E1A05106592A6A34F029F1E /* ShellScript */,
-				F9460C05BF524CA45C960D98 /* Sources */,
-				09DE4BE3D0CF029D40022BDB /* Frameworks */,
-				B1E00D1203CC7F53E17130E7 /* Resources */,
-				32FB5EA617F76E167A753B4E /* Embed Frameworks */,
+				2B03CDF2096AE4D72F79FB94 /* ShellScript */,
+				6E69DE8043143E1F483DF725 /* Sources */,
+				3D8B613D1B4292C69B927EAC /* Frameworks */,
+				D686565098B70D2A859740C4 /* Resources */,
+				B90A438C2D2DF3EE50E03E09 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,7 +218,7 @@
 			);
 			name = Template;
 			productName = MyTestApp2;
-			productReference = E546AEEC2F2D6F2BC0CC2D3E /* Template.app */;
+			productReference = 8CD8DE44AE17CDC08AB1C7E1 /* Template.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -249,28 +249,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64AA67ED841D6105129F1CC7 /* Template */,
+				7A0889C668ADDEFCEAFC33BE /* Template */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B1E00D1203CC7F53E17130E7 /* Resources */ = {
+		D686565098B70D2A859740C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DF293EECDE41F8D5BAB970 /* LoadingView.xib in Resources */,
-				5A0CE3410036A7F698693FF9 /* Assets.xcassets in Resources */,
-				48CAC14FBC1BDD4A4335D535 /* Main.storyboard in Resources */,
-				43F752CA2769A45D0AC49D21 /* WMatrix.bundle in Resources */,
-				930AD6BD0D9FC6B6A8BB26FD /* Launch Screen.storyboard in Resources */,
+				6DA94D7A2CA187FE95EBE85F /* LoadingView.xib in Resources */,
+				C106C1A2AD4C9F8895A55528 /* Assets.xcassets in Resources */,
+				6CDDABBD53BE19ACDCAB695D /* Main.storyboard in Resources */,
+				E7AD1A134F419FE26C0916E2 /* WMatrix.bundle in Resources */,
+				530850C82E2198C54412C792 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6E1A05106592A6A34F029F1E /* ShellScript */ = {
+		2B03CDF2096AE4D72F79FB94 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,15 +290,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F9460C05BF524CA45C960D98 /* Sources */ = {
+		6E69DE8043143E1F483DF725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D00A4C6C1225DB692F52B6 /* LoadingView.swift in Sources */,
-				8E855D378BC8F056BFDF5F71 /* SamplePlugin.swift in Sources */,
-				18E95ADBDA0C7E8FBCF66C2C /* AppDelegate.swift in Sources */,
-				C6B94785633766A5BF87B4FC /* MainViewController.swift in Sources */,
-				AD6EC9D150EB0143377F6630 /* SceneDelegate.swift in Sources */,
+				8F42960EE309628667B959E7 /* LoadingView.swift in Sources */,
+				1A9B470B1E906D4FE0839D71 /* SamplePlugin.swift in Sources */,
+				A0EFB6185BDBC09A977AECAF /* AppDelegate.swift in Sources */,
+				5764E8B4445F5A1A0D8AF005 /* MainViewController.swift in Sources */,
+				A6C17B03618A292659F5E62B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +324,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18B28F6509DA4E1837794EFC /* Debug */ = {
+		66493C95E061BE379F0E9EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -333,7 +333,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YXHXABBUG5;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YXHXABBUG5;
 				ENABLE_BITCODE = NO;
@@ -373,56 +373,6 @@
 				VALIDATE_WORKSPACE = NO;
 			};
 			name = Debug;
-		};
-		586A53F51DBEAB64AB0DE682 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = YXHXABBUG5;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YXHXABBUG5;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Lib",
-					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-network",
-					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-camera",
-					"$(PROJECT_DIR)/WMatrix/Lib",
-					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-device",
-					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-app",
-				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/MyTestApp2/Plugin/TestPlugin/TestPlugin-Swift.h";
-				INFOPLIST_FILE = "$(SRCROOT)/MyTestApp2/Template-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = WMBank2;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 0.0.1;
-				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = matrix.mobile.app;
-				PRODUCT_NAME = "${TARGET_NAME:c99extidentifier}";
-				PROVISIONING_PROFILE_SPECIFIER = "Matrix Studio Profile";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Matrix Studio Profile";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_INCLUDE_PATHS = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_WORKSPACE = NO;
-			};
-			name = Release;
 		};
 		9A87CFFE263A82150031B526 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -476,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -532,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -542,14 +492,64 @@
 			};
 			name = Release;
 		};
+		E4DB90F099E0C85DF128E86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXHXABBUG5;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YXHXABBUG5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-network",
+					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-camera",
+					"$(PROJECT_DIR)/WMatrix/Lib",
+					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-device",
+					"$(PROJECT_DIR)/WMatrix/Plugins/wmatrix-plugin-app",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/MyTestApp2/Plugin/TestPlugin/TestPlugin-Swift.h";
+				INFOPLIST_FILE = "$(SRCROOT)/MyTestApp2/Template-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WMBank2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 0.0.1;
+				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = matrix.mobile.app;
+				PRODUCT_NAME = "${TARGET_NAME:c99extidentifier}";
+				PROVISIONING_PROFILE_SPECIFIER = "Matrix Studio Profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Matrix Studio Profile";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C5385A3F5BCF2D1153357F2 /* Build configuration list for PBXNativeTarget "Template" */ = {
+		4C71F9F77404B3E10953374D /* Build configuration list for PBXNativeTarget "Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18B28F6509DA4E1837794EFC /* Debug */,
-				586A53F51DBEAB64AB0DE682 /* Release */,
+				66493C95E061BE379F0E9EF6 /* Debug */,
+				E4DB90F099E0C85DF128E86E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
