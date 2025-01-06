@@ -70,7 +70,7 @@
 		9AF1076B273A0A3C0009741C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9DB9DF82552E407DC0D722C5 /* WMApp.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = WMApp.xcframework; path = WMApp.xcframework; sourceTree = "<group>"; };
 		A4B188870441087A620CEF96 /* WMCamera.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = WMCamera.xcframework; path = WMCamera.xcframework; sourceTree = "<group>"; };
-		D4C7D200DCE6A87E0E8FA344 /* Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Template-Info.plist"; path = "/Users/yujin/wmb_home/projects/ios/a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11/Matrix_Mobile_iOS/source/MyTestApp/Template-Info.plist"; sourceTree = "<group>"; };
+		D4C7D200DCE6A87E0E8FA344 /* Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Template-Info.plist"; path = "/Users/yujin/wmb_home/projects/ios/a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11/Matrix_Mobile_iOS2/source/MyTestApp/Template-Info.plist"; sourceTree = "<group>"; };
 		E546AEEC2F2D6F2BC0CC2D3E /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Template.app; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA293556D4ECDEE6519E6D33 /* GCDWebServers.xcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.xcframework; lastKnownFileType = wrapper.xcframework; name = GCDWebServers.xcframework; path = GCDWebServers.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -333,7 +333,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YXHXABBUG5;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YXHXABBUG5;
 				ENABLE_BITCODE = NO;
@@ -355,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = matrix.mobile.app;
@@ -383,7 +383,7 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YXHXABBUG5;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YXHXABBUG5;
 				ENABLE_BITCODE = NO;
@@ -405,7 +405,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = matrix.mobile.app;
